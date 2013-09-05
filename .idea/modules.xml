@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/YoutubeExample/YoutubeExample.iml" filepath="$PROJECT_DIR$/YoutubeExample/YoutubeExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/YoutubeExampleProject.iml" filepath="$PROJECT_DIR$/YoutubeExampleProject.iml" />
+    </modules>
+  </component>
+</project>
+

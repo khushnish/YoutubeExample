@@ -1,0 +1,79 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:0.5.+'
+    }
+}
+apply plugin: 'android'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile files('libs/android-support-v4.jar')
+}
+
+android {
+    compileSdkVersion 17
+    buildToolsVersion "17.0.0"
+
+    defaultConfig {
+        minSdkVersion 8
+        targetSdkVersion 16
+    }
+
+    signingConfigs {
+        flavor1Config {
+            storeFile file("keystore_flavor1")
+            storePassword "indianic"
+            keyAlias "indianic"
+            keyPassword "indianic"
+        }
+        flavor2config {
+            storeFile file("keystore_flavor2")
+            storePassword "indianic"
+            keyAlias "indianic"
+            keyPassword "indianic"
+
+        }
+    }
+
+    productFlavors {
+        flavor1 {
+            packageName "com.khushnish.comedynightswithkapil"
+//            signingConfig flavor1SigningVariable
+        }
+
+        flavor2  {
+            packageName "com.khushnish.didmoms"
+//            signingConfig flavor2SigningVariable
+        }
+    }
+
+    sourceSets {
+        main {
+            manifest.srcFile 'src/main/AndroidManifest.xml'
+            java.srcDirs = ['src/main/java']
+            resources.srcDirs = ['src/main/java']
+            aidl.srcDirs = ['src/main/java']
+            renderscript.srcDirs = ['src/main/java']
+            res.srcDirs = ['src/main/res']
+        }
+
+        //If anything differs in code level for your flavors mention the respective sourceSets here.
+        //Mention only those entries which differs from your main source sets,
+        //Remember, for entries not mentioned in flavored sourceSets gradle will refer to entries from main sourceSet
+        //Eventually not all files from the needed soureSet are not necessarily to be copied. Copy only those who defers. But with proper folder structure.
+        // E.g. If you have only color scheme to be changed for each flavors, copy only colors.xml for flavors, just like done in this project.
+
+        flavor1 {
+            res.srcDirs = ['src/main/flavor1/res']
+        }
+        flavor2 {
+            res.srcDirs = ['src/main/flavor2/res']
+        }
+    }
+}
