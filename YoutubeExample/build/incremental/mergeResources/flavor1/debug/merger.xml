@@ -24,6 +24,11 @@
                 qualifiers=""
                 type="layout" />
             <file
+                name="row_youtube"
+                path="/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/src/main/res/layout/row_youtube.xml"
+                qualifiers=""
+                type="layout" />
+            <file
                 name="main"
                 path="/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/src/main/res/menu/main.xml"
                 qualifiers=""
@@ -104,9 +109,9 @@
             <file
                 path="/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/src/main/flavor1/res/values/strings.xml"
                 qualifiers="" >
-                <string name="app_name" >Comedy Nights With Kapil
+                <string name="api_key" >AIzaSyDwXCrbrH3RXZ4wVf-2YdNkXOuObgKZiDo
                 </string>
-                <string name="hello_world" >Hello world!
+                <string name="app_name" >Comedy Nights With Kapil
                 </string>
             </file>
         </source>

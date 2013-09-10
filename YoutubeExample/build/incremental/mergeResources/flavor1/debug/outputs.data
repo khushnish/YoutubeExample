@@ -1,12 +1,13 @@
 # incremental data. DO NOT EDIT.
 # format is <lastModified> <length> <SHA-1> <path>
 # Encoding is UTF-8
-1378373025000 365 b16e3617fb08133ee9052147f6df71b52e5747bb /Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/build/res/all/flavor1/debug/menu/main.xml
-1378373025000 268 750b3a4157eaa126837cff214c639e0e1c78db59 /Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/build/res/all/flavor1/debug/values-sw720dp-land/values.xml
-1378373026000 14068 502cd84fa444f26d7ecfdf4a355064867977f236 /Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/build/res/all/flavor1/debug/drawable-xhdpi/ic_launcher.png
-1378373026000 5057 23730fd0d5e720d1f719be1afc8c48fa7305da6c /Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/build/res/all/flavor1/debug/drawable-mdpi/ic_launcher.png
-1378373026000 9193 450d3d44325fdf259810a60e6afa36103e186b3d /Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/build/res/all/flavor1/debug/drawable-hdpi/ic_launcher.png
-1378373025000 337 fa3122d7d1ff1260402a67c0bb859f05c38c3b39 /Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/build/res/all/flavor1/debug/values-v11/values.xml
-1378373025000 1330 7ccc603a8eb435793d25ca287379951eb9eade8c /Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/build/res/all/flavor1/debug/values/values.xml
-1378373025000 351 7964917da6fae2223401c680e531a239182e19d3 /Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/build/res/all/flavor1/debug/values-v14/values.xml
-1378373025000 781 6cf9346771826e69ef2ec8e6c02b8d5566cd299f /Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/build/res/all/flavor1/debug/layout/activity_main.xml
+1378814184000 365 b16e3617fb08133ee9052147f6df71b52e5747bb /Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/build/res/all/flavor1/debug/menu/main.xml
+1378814184000 268 750b3a4157eaa126837cff214c639e0e1c78db59 /Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/build/res/all/flavor1/debug/values-sw720dp-land/values.xml
+1378814184000 826 8aeb6784f23568c47f9db330f1aa0a67c1431d1a /Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/build/res/all/flavor1/debug/layout/row_youtube.xml
+1378814185000 14068 502cd84fa444f26d7ecfdf4a355064867977f236 /Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/build/res/all/flavor1/debug/drawable-xhdpi/ic_launcher.png
+1378814185000 5057 23730fd0d5e720d1f719be1afc8c48fa7305da6c /Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/build/res/all/flavor1/debug/drawable-mdpi/ic_launcher.png
+1378814185000 9193 450d3d44325fdf259810a60e6afa36103e186b3d /Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/build/res/all/flavor1/debug/drawable-hdpi/ic_launcher.png
+1378814184000 337 fa3122d7d1ff1260402a67c0bb859f05c38c3b39 /Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/build/res/all/flavor1/debug/values-v11/values.xml
+1378815075000 1537 d778b28b579804b295942c871626a294c88e19a3 /Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/build/res/all/flavor1/debug/values/values.xml
+1378814184000 351 7964917da6fae2223401c680e531a239182e19d3 /Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/build/res/all/flavor1/debug/values-v14/values.xml
+1378814184000 599 7160a3794c01d7189e059cc5bb0b81d74951bd23 /Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/build/res/all/flavor1/debug/layout/activity_main.xml
