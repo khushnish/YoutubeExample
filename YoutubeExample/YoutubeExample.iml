@@ -3,14 +3,14 @@
   <component name="FacetManager">
     <facet type="android" name="Android">
       <configuration>
-        <option name="SELECTED_BUILD_VARIANT" value="Flavor2Debug" />
-        <option name="ASSEMBLE_TASK_NAME" value="assembleFlavor2Debug" />
-        <option name="ASSEMBLE_TEST_TASK_NAME" value="assembleFlavor2Test" />
+        <option name="SELECTED_BUILD_VARIANT" value="Flavor1Debug" />
+        <option name="ASSEMBLE_TASK_NAME" value="assembleFlavor1Debug" />
+        <option name="ASSEMBLE_TEST_TASK_NAME" value="assembleFlavor1Test" />
         <option name="SOURCE_GEN_TASK_NAME" value="TODO" />
         <option name="ALLOW_USER_CONFIGURATION" value="false" />
         <option name="MANIFEST_FILE_RELATIVE_PATH" value="/src/main/AndroidManifest.xml" />
         <option name="RES_FOLDER_RELATIVE_PATH" value="/src/main/res" />
-        <option name="RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/src/main/res;file://$MODULE_DIR$/src/main/flavor2/res" />
+        <option name="RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/src/main/res;file://$MODULE_DIR$/src/main/flavor1/res" />
         <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/src/main/assets" />
       </configuration>
     </facet>
@@ -21,33 +21,33 @@
     </facet>
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="false">
-    <output url="file://$MODULE_DIR$/build/classes/flavor2/debug" />
+    <output url="file://$MODULE_DIR$/build/classes/flavor1/debug" />
     <exclude-output />
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/build/source/r/flavor2/debug" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/build/source/aidl/flavor2/debug" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/build/source/rs/flavor2/debug" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/build/source/buildConfig/flavor2/debug" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/build/res/rs/flavor2/debug" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/build/source/r/flavor2/test" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/source/aidl/flavor2/test" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/source/rs/flavor2/test" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/source/buildConfig/flavor2/test" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/res/rs/flavor2/test" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/flavor2/aidl" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/flavor2/assets" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/flavor2/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/flavor2/jni" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/flavor2/rs" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/main/flavor2/res" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/flavor2/resources" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/instrumentTestFlavor2/aidl" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/instrumentTestFlavor2/assets" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/instrumentTestFlavor2/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/instrumentTestFlavor2/jni" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/instrumentTestFlavor2/rs" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/instrumentTestFlavor2/res" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/instrumentTestFlavor2/resources" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/source/r/flavor1/debug" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/build/source/aidl/flavor1/debug" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/build/source/rs/flavor1/debug" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/build/source/buildConfig/flavor1/debug" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/build/res/rs/flavor1/debug" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/build/source/r/flavor1/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/source/aidl/flavor1/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/source/rs/flavor1/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/source/buildConfig/flavor1/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/res/rs/flavor1/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/flavor1/aidl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/flavor1/assets" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/flavor1/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/flavor1/jni" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/flavor1/rs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/flavor1/res" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/flavor1/resources" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/instrumentTestFlavor1/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/instrumentTestFlavor1/assets" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/instrumentTestFlavor1/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/instrumentTestFlavor1/jni" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/instrumentTestFlavor1/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/instrumentTestFlavor1/res" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/instrumentTestFlavor1/resources" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/debug/aidl" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/debug/assets" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/debug/java" isTestSource="false" />
@@ -85,11 +85,13 @@
     <orderEntry type="library" exported="" name="universal-image-loader-1.8.6" level="project" />
     <orderEntry type="library" exported="" name="google-http-client-jackson2-1.16.0-rc" level="project" />
     <orderEntry type="library" exported="" name="jackson-core-2.1.3" level="project" />
+    <orderEntry type="library" exported="" name="YouTubeAndroidPlayerApi" level="project" />
     <orderEntry type="library" exported="" name="google-http-client-1.16.0-rc" level="project" />
     <orderEntry type="library" exported="" name="google-http-client-android-1.16.0-rc" level="project" />
     <orderEntry type="library" exported="" name="google-api-client-1.16.0-rc" level="project" />
     <orderEntry type="library" exported="" name="google-oauth-client-1.16.0-rc" level="project" />
     <orderEntry type="library" exported="" name="google-api-client-android-1.16.0-rc" level="project" />
+    <orderEntry type="library" exported="" name="GoogleAdMobAdsSdk-6.4.1" level="project" />
   </component>
 </module>
 

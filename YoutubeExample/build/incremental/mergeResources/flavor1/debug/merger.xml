@@ -24,6 +24,11 @@
                 qualifiers=""
                 type="layout" />
             <file
+                name="activity_youtube"
+                path="/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/src/main/res/layout/activity_youtube.xml"
+                qualifiers=""
+                type="layout" />
+            <file
                 name="row_youtube"
                 path="/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/src/main/res/layout/row_youtube.xml"
                 qualifiers=""
@@ -31,6 +36,11 @@
             <file
                 name="main"
                 path="/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/src/main/res/menu/main.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="youtube"
+                path="/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/src/main/res/menu/youtube.xml"
                 qualifiers=""
                 type="menu" />
             <file
@@ -44,12 +54,25 @@
             <file
                 path="/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/src/main/res/values/strings.xml"
                 qualifiers="" >
+                <string name="update_youtube" >Update YouTube Player
+                </string>
                 <string name="action_settings" >Settings
+                </string>
+                <string name="title_activity_youtube" >YoutubeActivity
+                </string>
+                <string name="update_youtube_player" >Update YouTube Player to view video or play in browser
                 </string>
                 <string name="app_name" >YoutubeExample
                 </string>
-                <string name="hello_world" >Hello world!
-                </string>
+
+                <array name="pick_player" >
+                    <item>
+YouTube Player
+                    </item>
+                    <item>
+Browser
+                    </item>
+                </array>
             </file>
             <file
                 path="/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/src/main/res/values/styles.xml"

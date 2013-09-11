@@ -3,6 +3,11 @@
 
     <string name="app_name">YoutubeExample</string>
     <string name="action_settings">Settings</string>
-    <string name="hello_world">Hello world!</string>
-
+    <string name="update_youtube">Update YouTube Player</string>
+    <string name="title_activity_youtube">YoutubeActivity</string>
+    <string name="update_youtube_player">Update YouTube Player to view video or play in browser</string>
+    <array name="pick_player">
+        <item>YouTube Player</item>
+        <item>Browser</item>
+    </array>
 </resources>
