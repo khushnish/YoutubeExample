@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <!-- From: file:/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/src/main/res/values/strings.xml -->
+    <array name="pick_player">
+        <item>YouTube Player</item>
+        <item>Browser</item>
+    </array>
     <!-- From: file:/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/src/main/res/values/dimens.xml -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
@@ -10,7 +15,9 @@
     <string name="api_key">AIzaSyDwXCrbrH3RXZ4wVf-2YdNkXOuObgKZiDo</string>
     <string name="app_name">Comedy Nights With Kapil</string>
     <!-- From: file:/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/src/main/res/values/strings.xml -->
-    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_youtube">YoutubeActivity</string>
+    <string name="update_youtube">Update YouTube Player</string>
+    <string name="update_youtube_player">Update YouTube Player to view video or play in browser</string>
     <!-- From: file:/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/src/main/res/values/styles.xml -->
     <style name="AppBaseTheme" parent="android:Theme.Light">
         <!--

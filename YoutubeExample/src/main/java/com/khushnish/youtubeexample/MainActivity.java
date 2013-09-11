@@ -1,12 +1,23 @@
 package com.khushnish.youtubeexample;
 
+import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.content.Context;
+import android.content.DialogInterface;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.app.Activity;
+import android.util.Log;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
 
+import com.google.ads.Ad;
+import com.google.ads.AdListener;
+import com.google.ads.AdRequest;
+import com.google.ads.InterstitialAd;
 import com.google.api.client.googleapis.json.GoogleJsonResponseException;
 import com.google.api.client.http.HttpRequest;
 import com.google.api.client.http.HttpRequestInitializer;
@@ -29,7 +40,7 @@ import java.util.List;
 import java.io.IOException;
 import java.util.Iterator;
 
-public class MainActivity extends Activity {
+public class MainActivity extends Activity implements AdListener {
 
     /** Global instance of the HTTP transport. */
     private final HttpTransport HTTP_TRANSPORT = new NetHttpTransport();
@@ -42,11 +53,23 @@ public class MainActivity extends Activity {
 
     /** Global instance of Youtube object to make all API requests. */
     private YouTube youtube;
+    private InterstitialAd interstitial;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        interstitial = new InterstitialAd(this, "");
+
+        // Create ad request
+        final AdRequest adRequest = new AdRequest();
+
+        // Begin loading your interstitial
+        interstitial.loadAd(adRequest);
+
+        // Set Ad Listener to use the callbacks below
+        interstitial.setAdListener(this);
 
         initImageLoader(this);
 
@@ -62,7 +85,7 @@ public class MainActivity extends Activity {
         // or you can create default configuration by
         //  ImageLoaderConfiguration.createDefault(this);
         // method.
-        ImageLoaderConfiguration config = new ImageLoaderConfiguration.Builder(context)
+        final ImageLoaderConfiguration config = new ImageLoaderConfiguration.Builder(context)
                 .threadPriority(Thread.NORM_PRIORITY - 2)
                 .denyCacheImageMultipleSizesInMemory()
                 .discCacheFileNameGenerator(new Md5FileNameGenerator())
@@ -91,14 +114,41 @@ public class MainActivity extends Activity {
 
             // Double checks the kind is video.
             if (rId.getKind().equals("youtube#video")) {
-                Thumbnail thumbnail = singleVideo.getSnippet().getThumbnails().getDefault();
+                final Thumbnail thumbnail = singleVideo.getSnippet().getThumbnails().getDefault();
 
                 System.out.println(" Video Id" + rId.getVideoId());
                 System.out.println(" Title: " + singleVideo.getSnippet().getTitle());
                 System.out.println(" Thumbnail: " + thumbnail.getUrl());
-                System.out.println("\n-------------------------------------------------------------\n");
+                System.out.println("\n--------------------------------------------------------\n");
             }
         }
+    }
+
+    @Override
+    public void onReceiveAd(Ad ad) {
+        if (ad == interstitial) {
+            interstitial.show();
+        }
+    }
+
+    @Override
+    public void onFailedToReceiveAd(Ad ad, AdRequest.ErrorCode errorCode) {
+
+    }
+
+    @Override
+    public void onPresentScreen(Ad ad) {
+
+    }
+
+    @Override
+    public void onDismissScreen(Ad ad) {
+
+    }
+
+    @Override
+    public void onLeaveApplication(Ad ad) {
+
     }
 
     private class YoutubeTask extends AsyncTask<Void, Void, List<SearchResult>> {
@@ -115,11 +165,9 @@ public class MainActivity extends Activity {
         @Override
         protected List<SearchResult> doInBackground(Void... params) {
             try {
-                final String queryTerm = getString(R.string.app_name);
-
                 final YouTube.Search.List search = youtube.search().list("id,snippet");
                 search.setKey(getString(R.string.api_key));
-                search.setQ(queryTerm);
+                search.setQ(getString(R.string.app_name));
                 search.setType("video");
                 search.setFields("items(id/kind,id/videoId,snippet/title,snippet/thumbnails/default/url)");
                 search.setMaxResults(NUMBER_OF_VIDEOS_RETURNED);
@@ -161,6 +209,32 @@ public class MainActivity extends Activity {
                 final ListView list = (ListView) findViewById(R.id.youtube_list);
                 list.setAdapter(new YoutubeAdapter(MainActivity.this, R.layout.row_youtube,
                         R.id.row_youtube_txt_description, searchResults));
+                list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                        final SearchResult result = (SearchResult) parent.getAdapter().getItem(position);
+
+                        final AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
+                        builder.setTitle(R.string.app_name);
+                        builder.setItems(R.array.pick_player, new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog, int which) {
+                                dialog.dismiss();
+                                if (which == 0) {
+                                    final Intent intent = new Intent(MainActivity.this, YoutubeActivity.class);
+                                    Log.e("Youtube", "Video Id : " + result.getId().getVideoId());
+                                    intent.putExtra("youtubeVideoId", result.getId().getVideoId());
+                                    startActivity(intent);
+                                } else {
+                                    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(
+                                            "http://m.youtube.com/watch?v=" + result.getId().getVideoId())));
+
+                                }
+                            }
+                        });
+
+                        builder.create().show();
+                    }
+                });
             }
         }
     }
