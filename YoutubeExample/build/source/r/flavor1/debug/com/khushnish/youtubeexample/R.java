@@ -9,15 +9,15 @@ package com.khushnish.youtubeexample;
 
 public final class R {
     public static final class array {
-        /**  From: file:/Users/KhushNish/Git/YoutubeExample/YoutubeExample/src/main/res/values/strings.xml 
+        /**  From: file:/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/src/main/res/values/strings.xml 
          */
         public static final int pick_player=0x7f040000;
     }
     public static final class attr {
     }
     public static final class dimen {
-        /**  From: file:/Users/KhushNish/Git/YoutubeExample/YoutubeExample/src/main/res/values/dimens.xml 
- From: file:/Users/KhushNish/Git/YoutubeExample/YoutubeExample/src/main/res/values-sw720dp-land/dimens.xml 
+        /**  From: file:/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/src/main/res/values/dimens.xml 
+ From: file:/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/src/main/res/values-sw720dp-land/dimens.xml 
          */
         public static final int activity_horizontal_margin=0x7f050000;
         public static final int activity_vertical_margin=0x7f050001;
@@ -44,30 +44,31 @@ public final class R {
         public static final int youtube=0x7f080001;
     }
     public static final class string {
-        /**  From: file:/Users/KhushNish/Git/YoutubeExample/YoutubeExample/src/main/res/values/strings.xml 
+        /**  From: file:/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/src/main/res/values/strings.xml 
          */
         public static final int action_settings=0x7f060000;
-        /**  From: file:/Users/KhushNish/Git/YoutubeExample/YoutubeExample/src/main/flavor1/res/values/strings.xml 
+        /**  From: file:/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/src/main/flavor1/res/values/strings.xml 
          */
-        public static final int ads_key=0x7f060001;
-        public static final int api_key=0x7f060002;
-        public static final int app_name=0x7f060003;
-        /**  From: file:/Users/KhushNish/Git/YoutubeExample/YoutubeExample/src/main/res/values/strings.xml 
+        public static final int ads_interstitial_key=0x7f060001;
+        public static final int ads_key=0x7f060002;
+        public static final int api_key=0x7f060003;
+        public static final int app_name=0x7f060004;
+        /**  From: file:/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/src/main/res/values/strings.xml 
          */
-        public static final int title_activity_youtube=0x7f060004;
-        public static final int update_youtube=0x7f060005;
-        public static final int update_youtube_player=0x7f060006;
+        public static final int title_activity_youtube=0x7f060005;
+        public static final int update_youtube=0x7f060006;
+        public static final int update_youtube_player=0x7f060007;
     }
     public static final class style {
-        /**  From: file:/Users/KhushNish/Git/YoutubeExample/YoutubeExample/src/main/res/values/styles.xml 
+        /**  From: file:/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/src/main/res/values/styles.xml 
 
             Theme customizations available in newer API levels can go in
             res/values-vXX/styles.xml, while customizations related to
             backward-compatibility can go here.
         
- From: file:/Users/KhushNish/Git/YoutubeExample/YoutubeExample/src/main/res/values-v11/styles.xml 
+ From: file:/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/src/main/res/values-v11/styles.xml 
  API 11 theme customizations can go here. 
- From: file:/Users/KhushNish/Git/YoutubeExample/YoutubeExample/src/main/res/values-v14/styles.xml 
+ From: file:/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/src/main/res/values-v14/styles.xml 
  API 14 theme customizations can go here. 
          */
         public static final int AppBaseTheme=0x7f070000;

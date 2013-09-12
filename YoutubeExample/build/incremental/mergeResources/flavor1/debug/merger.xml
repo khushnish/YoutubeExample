@@ -2,49 +2,49 @@
 <merger>
 
     <dataSet config="main" >
-        <source path="/Users/KhushNish/Git/YoutubeExample/YoutubeExample/src/main/res" >
+        <source path="/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/src/main/res" >
             <file
                 name="ic_launcher"
-                path="/Users/KhushNish/Git/YoutubeExample/YoutubeExample/src/main/res/drawable-hdpi/ic_launcher.png"
+                path="/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/src/main/res/drawable-hdpi/ic_launcher.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="ic_launcher"
-                path="/Users/KhushNish/Git/YoutubeExample/YoutubeExample/src/main/res/drawable-mdpi/ic_launcher.png"
+                path="/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/src/main/res/drawable-mdpi/ic_launcher.png"
                 qualifiers="mdpi"
                 type="drawable" />
             <file
                 name="ic_launcher"
-                path="/Users/KhushNish/Git/YoutubeExample/YoutubeExample/src/main/res/drawable-xhdpi/ic_launcher.png"
+                path="/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/src/main/res/drawable-xhdpi/ic_launcher.png"
                 qualifiers="xhdpi"
                 type="drawable" />
             <file
                 name="activity_main"
-                path="/Users/KhushNish/Git/YoutubeExample/YoutubeExample/src/main/res/layout/activity_main.xml"
+                path="/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/src/main/res/layout/activity_main.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="activity_youtube"
-                path="/Users/KhushNish/Git/YoutubeExample/YoutubeExample/src/main/res/layout/activity_youtube.xml"
+                path="/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/src/main/res/layout/activity_youtube.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="row_youtube"
-                path="/Users/KhushNish/Git/YoutubeExample/YoutubeExample/src/main/res/layout/row_youtube.xml"
+                path="/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/src/main/res/layout/row_youtube.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="main"
-                path="/Users/KhushNish/Git/YoutubeExample/YoutubeExample/src/main/res/menu/main.xml"
+                path="/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/src/main/res/menu/main.xml"
                 qualifiers=""
                 type="menu" />
             <file
                 name="youtube"
-                path="/Users/KhushNish/Git/YoutubeExample/YoutubeExample/src/main/res/menu/youtube.xml"
+                path="/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/src/main/res/menu/youtube.xml"
                 qualifiers=""
                 type="menu" />
             <file
-                path="/Users/KhushNish/Git/YoutubeExample/YoutubeExample/src/main/res/values/dimens.xml"
+                path="/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/src/main/res/values/dimens.xml"
                 qualifiers="" >
                 <dimen name="activity_horizontal_margin" >16dp
                 </dimen>
@@ -52,17 +52,15 @@
                 </dimen>
             </file>
             <file
-                path="/Users/KhushNish/Git/YoutubeExample/YoutubeExample/src/main/res/values/strings.xml"
+                path="/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/src/main/res/values/strings.xml"
                 qualifiers="" >
                 <string name="update_youtube" >Update YouTube Player
                 </string>
-                <string name="action_settings" >Settings
-                </string>
                 <string name="title_activity_youtube" >YoutubeActivity
                 </string>
-                <string name="update_youtube_player" >Update YouTube Player to view video or play in browser
+                <string name="action_settings" >Settings
                 </string>
-                <string name="app_name" >YoutubeExample
+                <string name="update_youtube_player" >Update YouTube Player to view video or play in browser
                 </string>
 
                 <array name="pick_player" >
@@ -73,9 +71,12 @@ YouTube Player
 Browser
                     </item>
                 </array>
+
+                <string name="app_name" >YoutubeExample
+                </string>
             </file>
             <file
-                path="/Users/KhushNish/Git/YoutubeExample/YoutubeExample/src/main/res/values/styles.xml"
+                path="/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/src/main/res/values/styles.xml"
                 qualifiers="" >
 
                 <style
@@ -97,13 +98,13 @@ Browser
                 </style>
             </file>
             <file
-                path="/Users/KhushNish/Git/YoutubeExample/YoutubeExample/src/main/res/values-sw720dp-land/dimens.xml"
+                path="/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/src/main/res/values-sw720dp-land/dimens.xml"
                 qualifiers="sw720dp-land" >
                 <dimen name="activity_horizontal_margin" >128dp
                 </dimen>
             </file>
             <file
-                path="/Users/KhushNish/Git/YoutubeExample/YoutubeExample/src/main/res/values-v11/styles.xml"
+                path="/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/src/main/res/values-v11/styles.xml"
                 qualifiers="v11" >
 
                 <style
@@ -114,7 +115,7 @@ Browser
                 </style>
             </file>
             <file
-                path="/Users/KhushNish/Git/YoutubeExample/YoutubeExample/src/main/res/values-v14/styles.xml"
+                path="/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/src/main/res/values-v14/styles.xml"
                 qualifiers="v14" >
 
                 <style
@@ -125,16 +126,18 @@ Browser
                 </style>
             </file>
         </source>
-        <source path="/Users/KhushNish/Git/YoutubeExample/YoutubeExample/build/res/rs/flavor1/debug" />
+        <source path="/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/build/res/rs/flavor1/debug" />
     </dataSet>
     <dataSet config="flavor1" >
-        <source path="/Users/KhushNish/Git/YoutubeExample/YoutubeExample/src/main/flavor1/res" >
+        <source path="/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/src/main/flavor1/res" >
             <file
-                path="/Users/KhushNish/Git/YoutubeExample/YoutubeExample/src/main/flavor1/res/values/strings.xml"
+                path="/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/src/main/flavor1/res/values/strings.xml"
                 qualifiers="" >
                 <string name="api_key" >AIzaSyDwXCrbrH3RXZ4wVf-2YdNkXOuObgKZiDo
                 </string>
                 <string name="app_name" >Comedy Nights With Kapil
+                </string>
+                <string name="ads_interstitial_key" >373f03d1001446fa
                 </string>
                 <string name="ads_key" >a1523091e9243ec
                 </string>
@@ -142,7 +145,7 @@ Browser
         </source>
     </dataSet>
     <dataSet config="debug" >
-        <source path="/Users/KhushNish/Git/YoutubeExample/YoutubeExample/src/debug/res" />
+        <source path="/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/src/debug/res" />
     </dataSet>
 
 </merger>

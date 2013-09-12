@@ -60,7 +60,7 @@ public class MainActivity extends Activity implements AdListener {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        interstitial = new InterstitialAd(this, "");
+        interstitial = new InterstitialAd(this, getString(R.string.ads_interstitial_key));
 
         // Create ad request
         final AdRequest adRequest = new AdRequest();
