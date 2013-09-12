@@ -12,7 +12,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         ads:adSize="SMART_BANNER"
-        ads:adUnitId="MY_AD_UNIT_ID"
+        ads:adUnitId="@string/ads_key"
         ads:loadAdOnCreate="true"
         ads:testDevices="TEST_EMULATOR, TEST_DEVICE_ID" />
 

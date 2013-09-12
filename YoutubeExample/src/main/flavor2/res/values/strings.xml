@@ -3,5 +3,7 @@
 
     <string name="app_name">DID Moms</string>
     <string name="api_key">AIzaSyDwXCrbrH3RXZ4wVf-2YdNkXOuObgKZiDo</string>
+    <string name="ads_key">a15230929e26c79</string>
+    <string name="ads_interstitial_key">76a3c03c752b4896</string>
 
 </resources>

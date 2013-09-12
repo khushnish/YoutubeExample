@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/YoutubeExample/YoutubeExample.iml" filepath="$PROJECT_DIR$/YoutubeExample/YoutubeExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/YoutubeExample/YoutubeExample-YoutubeExample.iml" filepath="$PROJECT_DIR$/YoutubeExample/YoutubeExample-YoutubeExample.iml" />
       <module fileurl="file://$PROJECT_DIR$/YoutubeExampleProject.iml" filepath="$PROJECT_DIR$/YoutubeExampleProject.iml" />
     </modules>
   </component>

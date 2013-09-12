@@ -1,6 +1,6 @@
 # incremental data. DO NOT EDIT.
 # format is <lastModified> <length> <SHA-1> <path>
 # Encoding is UTF-8
-1378900898000 2658 5be2bbd01c091887b8dc2a0bbbec1284341b40b7 /Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/src/main/java/com/khushnish/youtubeexample/YoutubeActivity.java
-1378902153000 9826 4088d554ba0ff6bf5897c3dcd12afcd756974cc2 /Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/src/main/java/com/khushnish/youtubeexample/MainActivity.java
-1378815029000 2656 98f9fe0aacd4bfd238b0cc598d200eab0d6ad805 /Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/src/main/java/com/khushnish/youtubeexample/YoutubeAdapter.java
+1378910690000 2658 5be2bbd01c091887b8dc2a0bbbec1284341b40b7 /Users/KhushNish/Git/YoutubeExample/YoutubeExample/src/main/java/com/khushnish/youtubeexample/YoutubeActivity.java
+1378831391000 2656 98f9fe0aacd4bfd238b0cc598d200eab0d6ad805 /Users/KhushNish/Git/YoutubeExample/YoutubeExample/src/main/java/com/khushnish/youtubeexample/YoutubeAdapter.java
+1378910690000 9827 2c380a68acabda06f56d47cecdddd71ae91adaed /Users/KhushNish/Git/YoutubeExample/YoutubeExample/src/main/java/com/khushnish/youtubeexample/MainActivity.java
