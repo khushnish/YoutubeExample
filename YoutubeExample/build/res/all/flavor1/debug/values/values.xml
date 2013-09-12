@@ -14,7 +14,7 @@
     <!-- From: file:/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/src/main/flavor1/res/values/strings.xml -->
     <string name="ads_interstitial_key">373f03d1001446fa</string>
     <string name="ads_key">a1523091e9243ec</string>
-    <string name="api_key">AIzaSyDwXCrbrH3RXZ4wVf-2YdNkXOuObgKZiDo</string>
+    <string name="api_key">AIzaSyA4XdqCFWJ7XBXPkhsx09YvteCUnhy9ZcQ</string>
     <string name="app_name">Comedy Nights With Kapil</string>
     <!-- From: file:/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/src/main/res/values/strings.xml -->
     <string name="title_activity_youtube">YoutubeActivity</string>

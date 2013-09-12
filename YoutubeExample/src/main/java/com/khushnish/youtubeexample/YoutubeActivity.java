@@ -6,21 +6,33 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 
+import com.google.ads.Ad;
+import com.google.ads.AdListener;
+import com.google.ads.AdRequest;
+import com.google.ads.InterstitialAd;
 import com.google.android.youtube.player.YouTubeBaseActivity;
 import com.google.android.youtube.player.YouTubeInitializationResult;
 import com.google.android.youtube.player.YouTubePlayer;
 import com.google.android.youtube.player.YouTubePlayerView;
 
-public class YoutubeActivity extends YouTubeBaseActivity implements YouTubePlayer.OnInitializedListener {
+public class YoutubeActivity extends YouTubeBaseActivity implements
+        YouTubePlayer.OnInitializedListener, AdListener {
 
     private String videoId = "";
     private YouTubePlayerView youTubeView;
     private boolean isInitialized = false;
+    private InterstitialAd interstitial;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_youtube);
+
+        final AdRequest adRequest = new AdRequest();
+
+        interstitial = new InterstitialAd(this, getString(R.string.ads_interstitial_key));
+        interstitial.loadAd(adRequest);
+        interstitial.setAdListener(this);
 
         videoId = getIntent().getStringExtra("youtubeVideoId");
         youTubeView = (YouTubePlayerView) findViewById(R.id.youtube_view);
@@ -67,5 +79,32 @@ public class YoutubeActivity extends YouTubeBaseActivity implements YouTubePlaye
         dialog.setMessage(getString(R.string.update_youtube_player));
         dialog.setCancelable(false);
         dialog.show();
+    }
+
+    @Override
+    public void onReceiveAd(Ad ad) {
+        if (ad == interstitial) {
+            interstitial.show();
+        }
+    }
+
+    @Override
+    public void onFailedToReceiveAd(Ad ad, AdRequest.ErrorCode errorCode) {
+
+    }
+
+    @Override
+    public void onPresentScreen(Ad ad) {
+
+    }
+
+    @Override
+    public void onDismissScreen(Ad ad) {
+
+    }
+
+    @Override
+    public void onLeaveApplication(Ad ad) {
+
     }
 }
