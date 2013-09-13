@@ -26,13 +26,15 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int action_settings=0x7f090006;
-        public static final int activity_main_adView=0x7f090000;
-        public static final int activity_youtube_adView=0x7f090002;
-        public static final int row_youtube_img_icon=0x7f090004;
-        public static final int row_youtube_txt_description=0x7f090005;
-        public static final int youtube_list=0x7f090001;
-        public static final int youtube_view=0x7f090003;
+        public static final int action_settings=0x7f090008;
+        public static final int activity_main_adView=0x7f090001;
+        public static final int activity_main_container=0x7f090000;
+        public static final int activity_youtube_adView=0x7f090004;
+        public static final int activity_youtube_container=0x7f090003;
+        public static final int row_youtube_img_icon=0x7f090006;
+        public static final int row_youtube_txt_description=0x7f090007;
+        public static final int youtube_list=0x7f090002;
+        public static final int youtube_view=0x7f090005;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
@@ -55,9 +57,10 @@ public final class R {
         public static final int app_name=0x7f060004;
         /**  From: file:/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/src/main/res/values/strings.xml 
          */
-        public static final int title_activity_youtube=0x7f060005;
-        public static final int update_youtube=0x7f060006;
-        public static final int update_youtube_player=0x7f060007;
+        public static final int check_internet_connection=0x7f060005;
+        public static final int title_activity_youtube=0x7f060006;
+        public static final int update_youtube=0x7f060007;
+        public static final int update_youtube_player=0x7f060008;
     }
     public static final class style {
         /**  From: file:/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/src/main/res/values/styles.xml 

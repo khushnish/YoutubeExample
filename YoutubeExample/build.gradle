@@ -80,9 +80,12 @@ android {
         //Eventually not all files from the needed soureSet are not necessarily to be copied. Copy only those who defers. But with proper folder structure.
         // E.g. If you have only color scheme to be changed for each flavors, copy only colors.xml for flavors, just like done in this project.
 
+        //  Comdedy Nights With kapil
         flavor1 {
             res.srcDirs = ['src/main/flavor1/res']
         }
+
+        //  DID Super Moms
         flavor2 {
             res.srcDirs = ['src/main/flavor2/res']
         }

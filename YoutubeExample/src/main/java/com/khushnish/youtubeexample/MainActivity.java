@@ -6,14 +6,20 @@ import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.res.Configuration;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ListView;
+import android.widget.RelativeLayout;
 
+import com.google.ads.AdRequest;
+import com.google.ads.AdSize;
+import com.google.ads.AdView;
 import com.google.api.client.googleapis.json.GoogleJsonResponseException;
 import com.google.api.client.http.HttpRequest;
 import com.google.api.client.http.HttpRequestInitializer;
@@ -39,6 +45,7 @@ public class MainActivity extends Activity {
     private final JsonFactory JSON_FACTORY = new JacksonFactory();
     private final long NUMBER_OF_VIDEOS_RETURNED = 50;
     private YouTube youtube;
+    private AdView adView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,13 +53,20 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
 
         initImageLoader(this);
+        adView = (AdView) findViewById(R.id.activity_main_adView);
 
         youtube = new YouTube.Builder(HTTP_TRANSPORT, JSON_FACTORY, new HttpRequestInitializer() {
             public void initialize(HttpRequest request) throws IOException {
             }
         }).setApplicationName(getString(R.string.app_name)).build();
 
-        new YoutubeTask().execute();
+        if ( Utils.checkInternetConnection(MainActivity.this) ) {
+            new YoutubeTask().execute();
+        } else {
+            Utils.displayDialog(getString(R.string.app_name),
+                    getString(R.string.check_internet_connection),
+                    this, getString(android.R.string.ok));
+        }
     }
 
     private void initImageLoader(Context context) {
@@ -63,6 +77,31 @@ public class MainActivity extends Activity {
                 .tasksProcessingOrder(QueueProcessingType.LIFO)
                 .build();
         ImageLoader.getInstance().init(config);
+    }
+
+    @Override
+    public void onConfigurationChanged(Configuration newConfig) {
+        super.onConfigurationChanged(newConfig);
+
+        final AdView adView = (AdView)findViewById(R.id.activity_main_adView);
+        final RelativeLayout parent = (RelativeLayout) findViewById(R.id.activity_main_container);
+        final ViewGroup.LayoutParams params = adView.getLayoutParams();
+
+        parent.removeView(adView);
+
+        final AdView newAdView = new AdView(this, AdSize.SMART_BANNER, getString(R.string.ads_key));
+        newAdView.setId(R.id.activity_main_adView);
+
+        parent.addView(newAdView, params);
+        newAdView.loadAd(new AdRequest());
+    }
+
+    @Override
+    protected void onDestroy() {
+        if (adView != null) {
+            adView.destroy();
+        }
+        super.onDestroy();
     }
 
     private class YoutubeTask extends AsyncTask<Void, Void, List<SearchResult>> {

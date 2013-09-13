@@ -3,12 +3,17 @@ package com.khushnish.youtubeexample;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.res.Configuration;
 import android.net.Uri;
 import android.os.Bundle;
+import android.view.ViewGroup;
+import android.widget.RelativeLayout;
 
 import com.google.ads.Ad;
 import com.google.ads.AdListener;
 import com.google.ads.AdRequest;
+import com.google.ads.AdSize;
+import com.google.ads.AdView;
 import com.google.ads.InterstitialAd;
 import com.google.android.youtube.player.YouTubeBaseActivity;
 import com.google.android.youtube.player.YouTubeInitializationResult;
@@ -86,6 +91,23 @@ public class YoutubeActivity extends YouTubeBaseActivity implements
         if (ad == interstitial) {
             interstitial.show();
         }
+    }
+
+    @Override
+    public void onConfigurationChanged(Configuration newConfig) {
+        super.onConfigurationChanged(newConfig);
+
+        final AdView adView = (AdView)findViewById(R.id.activity_youtube_adView);
+        final RelativeLayout parent = (RelativeLayout) findViewById(R.id.activity_youtube_container);
+        final ViewGroup.LayoutParams params = adView.getLayoutParams();
+
+        parent.removeView(adView);
+
+        final AdView newAdView = new AdView(this, AdSize.SMART_BANNER, getString(R.string.ads_key));
+        newAdView.setId(R.id.activity_youtube_adView);
+
+        parent.addView(newAdView, params);
+        newAdView.loadAd(new AdRequest());
     }
 
     @Override

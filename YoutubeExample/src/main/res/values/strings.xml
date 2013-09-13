@@ -6,6 +6,7 @@
     <string name="update_youtube">Update YouTube Player</string>
     <string name="title_activity_youtube">YoutubeActivity</string>
     <string name="update_youtube_player">Update YouTube Player to view video or play in browser</string>
+    <string name="check_internet_connection">Please check Internet Connection.</string>
     <array name="pick_player">
         <item>YouTube Player</item>
         <item>Browser</item>
