@@ -2,13 +2,13 @@
 <merger>
 
     <dataSet config="main" >
-        <source path="/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/src/main/assets" />
+        <source path="/Users/KhushNish/Git/YoutubeExample/YoutubeExample/src/main/assets" />
     </dataSet>
     <dataSet config="flavor1" >
-        <source path="/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/src/flavor1/assets" />
+        <source path="/Users/KhushNish/Git/YoutubeExample/YoutubeExample/src/flavor1/assets" />
     </dataSet>
     <dataSet config="debug" >
-        <source path="/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/src/debug/assets" />
+        <source path="/Users/KhushNish/Git/YoutubeExample/YoutubeExample/src/debug/assets" />
     </dataSet>
 
 </merger>
