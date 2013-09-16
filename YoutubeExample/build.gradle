@@ -13,7 +13,12 @@ repositories {
 }
 
 dependencies {
-    compile files('libs/android-support-v4.jar')
+
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:18.0.0'
+    compile 'com.android.support:appcompat-v7:18.0.+'
     compile files('libs/google-api-client-1.16.0-rc.jar')
     compile files('libs/google-api-client-android-1.16.0-rc.jar')
     compile files('libs/google-oauth-client-1.16.0-rc.jar')
@@ -53,13 +58,18 @@ android {
     }
 
     productFlavors {
-        flavor1 {
+        comedyNightsWithKapil {
             packageName "com.khushnish.comedynightswithkapil"
 //            signingConfig flavor1SigningVariable
         }
 
-        flavor2  {
-            packageName "com.khushnish.didmoms"
+        didSuperMoms  {
+            packageName "com.khushnish.didsupermoms"
+//            signingConfig flavor2SigningVariable
+        }
+
+        bigBoss7 {
+            packageName "com.khushnish.bigboss7"
 //            signingConfig flavor2SigningVariable
         }
     }
@@ -81,13 +91,17 @@ android {
         // E.g. If you have only color scheme to be changed for each flavors, copy only colors.xml for flavors, just like done in this project.
 
         //  Comdedy Nights With kapil
-        flavor1 {
-            res.srcDirs = ['src/main/flavor1/res']
+        comedyNightsWithKapil {
+            res.srcDirs = ['src/main/comedyNightsWithKapil/res']
         }
 
         //  DID Super Moms
-        flavor2 {
-            res.srcDirs = ['src/main/flavor2/res']
+        didSuperMoms {
+            res.srcDirs = ['src/main/didSuperMoms/res']
+        }
+
+        bigBoss7 {
+            res.srcDirs = ['src/main/bigBoss7/res']
         }
     }
 }

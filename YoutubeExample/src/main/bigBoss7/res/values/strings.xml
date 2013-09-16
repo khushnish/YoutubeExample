@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Big Boss 7</string>
+    <string name="api_key">AIzaSyA4XdqCFWJ7XBXPkhsx09YvteCUnhy9ZcQ</string>
+    <string name="ads_key">a1523091e9243ec</string>
+    <string name="ads_interstitial_key">373f03d1001446fa</string>
+
+</resources>

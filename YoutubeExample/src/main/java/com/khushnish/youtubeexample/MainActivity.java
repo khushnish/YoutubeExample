@@ -1,6 +1,5 @@
 package com.khushnish.youtubeexample;
 
-import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.content.Context;
@@ -10,9 +9,14 @@ import android.content.res.Configuration;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AbsListView;
 import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.RelativeLayout;
@@ -39,34 +43,99 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MainActivity extends Activity {
+public class MainActivity extends ActionBarActivity {
+
+    private final String TAG = "MainActivity";
 
     private final HttpTransport HTTP_TRANSPORT = new NetHttpTransport();
-    private final JsonFactory JSON_FACTORY = new JacksonFactory();
     private final long NUMBER_OF_VIDEOS_RETURNED = 50;
     private YouTube youtube;
     private AdView adView;
+    private String pageToken = "";
+    private List<SearchResult> searchResults = null;
+    private YoutubeAdapter youTubeAdapter;
+    private String sorting = "relevance";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        initImageLoader(this);
-        adView = (AdView) findViewById(R.id.activity_main_adView);
+        initializeComponents();
 
+        final JsonFactory JSON_FACTORY = new JacksonFactory();
         youtube = new YouTube.Builder(HTTP_TRANSPORT, JSON_FACTORY, new HttpRequestInitializer() {
             public void initialize(HttpRequest request) throws IOException {
             }
         }).setApplicationName(getString(R.string.app_name)).build();
 
-        if ( Utils.checkInternetConnection(MainActivity.this) ) {
-            new YoutubeTask().execute();
+        if (Utils.checkInternetConnection(MainActivity.this)) {
+            new YoutubeTask().execute(sorting);
         } else {
             Utils.displayDialog(getString(R.string.app_name),
                     getString(R.string.check_internet_connection),
                     this, getString(android.R.string.ok));
         }
+    }
+
+    private void initializeComponents() {
+
+        initImageLoader(this);
+
+        adView = (AdView) findViewById(R.id.activity_main_adView);
+        final ListView list = (ListView) findViewById(R.id.youtube_list);
+        searchResults = new ArrayList<SearchResult>();
+        youTubeAdapter = new YoutubeAdapter(MainActivity.this, R.layout.row_youtube,
+                R.id.row_youtube_txt_description, searchResults);
+        list.setAdapter(youTubeAdapter);
+
+        list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                final SearchResult result = (SearchResult) parent.getAdapter().getItem(position);
+
+                final AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
+                builder.setTitle(R.string.app_name);
+                builder.setItems(R.array.pick_player, new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+                        dialog.dismiss();
+                        if (which == 0) {
+                            final Intent intent = new Intent(MainActivity.this, YoutubeActivity.class);
+                            Log.e("Youtube", "Video Id : " + result.getId().getVideoId());
+                            intent.putExtra("youtubeVideoId", result.getId().getVideoId());
+                            startActivity(intent);
+                        } else {
+                            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(
+                                    "http://m.youtube.com/watch?v=" + result.getId().getVideoId())));
+
+                        }
+                    }
+                });
+
+                builder.create().show();
+            }
+        });
+
+        list.setOnScrollListener(new AbsListView.OnScrollListener() {
+
+            @Override
+            public void onScrollStateChanged(AbsListView view, int scrollState) {
+                int threshold = 1;
+                int count = list.getCount();
+
+                if (scrollState == SCROLL_STATE_IDLE) {
+                    if (list.getLastVisiblePosition() >= count
+                            - threshold) {
+                        new YoutubeTask().execute(sorting);
+                    }
+                }
+            }
+
+            @Override
+            public void onScroll(AbsListView view, int firstVisibleItem,
+                                 int visibleItemCount, int totalItemCount) {
+            }
+        });
     }
 
     private void initImageLoader(Context context) {
@@ -80,10 +149,51 @@ public class MainActivity extends Activity {
     }
 
     @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        final MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.sortby, menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+
+        super.onOptionsItemSelected(item);
+
+        switch (item.getItemId()) {
+            case R.id.relevance:
+                pageToken = "";
+                sorting = "relevance";
+                new YoutubeTask().execute(sorting);
+                break;
+
+            case R.id.upload_date:
+                pageToken = "";
+                sorting = "date";
+                new YoutubeTask().execute(sorting);
+                break;
+
+            case R.id.view_count:
+                pageToken = "";
+                sorting = "viewCount";
+                new YoutubeTask().execute(sorting);
+                break;
+
+            case R.id.rating:
+                pageToken = "";
+                sorting = "rating";
+                new YoutubeTask().execute(sorting);
+                break;
+        }
+        return true;
+
+    }
+
+    @Override
     public void onConfigurationChanged(Configuration newConfig) {
         super.onConfigurationChanged(newConfig);
 
-        final AdView adView = (AdView)findViewById(R.id.activity_main_adView);
+        final AdView adView = (AdView) findViewById(R.id.activity_main_adView);
         final RelativeLayout parent = (RelativeLayout) findViewById(R.id.activity_main_container);
         final ViewGroup.LayoutParams params = adView.getLayoutParams();
 
@@ -104,7 +214,7 @@ public class MainActivity extends Activity {
         super.onDestroy();
     }
 
-    private class YoutubeTask extends AsyncTask<Void, Void, List<SearchResult>> {
+    private class YoutubeTask extends AsyncTask<String, Void, Void> {
 
         private ProgressDialog progressDialog;
 
@@ -116,31 +226,34 @@ public class MainActivity extends Activity {
         }
 
         @Override
-        protected List<SearchResult> doInBackground(Void... params) {
+        protected Void doInBackground(String... params) {
             try {
                 final YouTube.Search.List search = youtube.search().list("id,snippet");
                 search.setKey(getString(R.string.api_key));
                 search.setQ(getString(R.string.app_name));
-                search.setType("rating");
-                search.setFields("items(id/kind,id/videoId,snippet/title,snippet/thumbnails/default/url)");
+                search.setType("video");
+                search.setOrder(params[0]);
+                search.setFields("nextPageToken,pageInfo(totalResults),items(id/kind,id/videoId," +
+                        "snippet/title,snippet/thumbnails/default/url)");
                 search.setMaxResults(NUMBER_OF_VIDEOS_RETURNED);
+                search.setPart("id,snippet");
+                search.setPageToken(pageToken);
                 SearchListResponse searchResponse = search.execute();
 
                 final List<SearchResult> searchResultList = searchResponse.getItems();
-                final ArrayList<SearchResult> results = new ArrayList<SearchResult>();
 
                 for (SearchResult searchResult : searchResultList) {
                     if (searchResult.getId().getKind().equals("youtube#video")) {
-                        results.add(searchResult);
+                        MainActivity.this.searchResults.add(searchResult);
                     }
                 }
-                results.trimToSize();
-                return results;
+                pageToken = searchResponse.getNextPageToken();
+                return null;
             } catch (GoogleJsonResponseException e) {
-                System.err.println("There was a service error: " + e.getDetails().getCode() + " : "
+                Log.e(TAG, "There was a service error: " + e.getDetails().getCode() + " : "
                         + e.getDetails().getMessage());
             } catch (IOException e) {
-                System.err.println("There was an IO error: " + e.getCause() + " : " + e.getMessage());
+                Log.e(TAG, "There was an IO error: " + e.getCause() + " : " + e.getMessage());
             } catch (Exception e) {
                 e.printStackTrace();
             }
@@ -148,44 +261,14 @@ public class MainActivity extends Activity {
         }
 
         @Override
-        protected void onPostExecute(List<SearchResult> searchResults) {
-            super.onPostExecute(searchResults);
+        protected void onPostExecute(Void result) {
+            super.onPostExecute(result);
 
             if (progressDialog != null && progressDialog.isShowing()) {
                 progressDialog.dismiss();
             }
 
-            if (searchResults != null) {
-                final ListView list = (ListView) findViewById(R.id.youtube_list);
-                list.setAdapter(new YoutubeAdapter(MainActivity.this, R.layout.row_youtube,
-                        R.id.row_youtube_txt_description, searchResults));
-                list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-                    @Override
-                    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                        final SearchResult result = (SearchResult) parent.getAdapter().getItem(position);
-
-                        final AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
-                        builder.setTitle(R.string.app_name);
-                        builder.setItems(R.array.pick_player, new DialogInterface.OnClickListener() {
-                            public void onClick(DialogInterface dialog, int which) {
-                                dialog.dismiss();
-                                if (which == 0) {
-                                    final Intent intent = new Intent(MainActivity.this, YoutubeActivity.class);
-                                    Log.e("Youtube", "Video Id : " + result.getId().getVideoId());
-                                    intent.putExtra("youtubeVideoId", result.getId().getVideoId());
-                                    startActivity(intent);
-                                } else {
-                                    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(
-                                            "http://m.youtube.com/watch?v=" + result.getId().getVideoId())));
-
-                                }
-                            }
-                        });
-
-                        builder.create().show();
-                    }
-                });
-            }
+            youTubeAdapter.notifyDataSetChanged();
         }
     }
 }

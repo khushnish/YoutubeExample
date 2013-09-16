@@ -93,78 +93,44 @@
       <file leaf-file-name="build.gradle" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/YoutubeExample/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="146" selection-end="146" vertical-scroll-proportion="0.0" vertical-offset="4" max-vertical-offset="1485">
+            <state line="79" column="44" selection-start="2197" selection-end="2197" vertical-scroll-proportion="0.0" vertical-offset="796" max-vertical-offset="1680">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="local.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/local.properties">
+      <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/java/com/khushnish/youtubeexample/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="44" selection-start="472" selection-end="472" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="240">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_youtube.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/res/layout/activity_youtube.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="29" selection-start="696" selection-end="696" vertical-scroll-proportion="0.34169278" vertical-offset="116" max-vertical-offset="465">
+            <state line="59" column="56" selection-start="2249" selection-end="2249" vertical-scroll-proportion="0.3276699" vertical-offset="0" max-vertical-offset="3570">
               <folding>
-                <element signature="e#722#739#0" expanded="true" />
+                <element signature="e#2659#2687#0" expanded="true" />
+                <element signature="e#3533#4884#0" expanded="true" />
+                <element signature="e#3992#4816#0" expanded="true" />
+                <element signature="e#4797#4798#0" expanded="true" />
+                <element signature="e#4873#4874#0" expanded="true" />
+                <element signature="e#8617#8644#0" expanded="true" />
+                <element signature="e#8675#8703#0" expanded="true" />
               </folding>
             </state>
           </provider>
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/java/com/khushnish/youtubeexample/MainActivity.java">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="49" selection-start="2115" selection-end="2115" vertical-scroll-proportion="0.0" vertical-offset="825" max-vertical-offset="2940">
-              <folding />
+            <state line="27" column="47" selection-start="1162" selection-end="1162" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
+              <folding>
+                <element signature="e#975#993#0" expanded="true" />
+              </folding>
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/res/values/strings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="104" selection-start="393" selection-end="393" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="285">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="YoutubeActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/java/com/khushnish/youtubeexample/YoutubeActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="31" selection-start="2113" selection-end="2113" vertical-scroll-proportion="0.0" vertical-offset="945" max-vertical-offset="2055">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="row_youtube.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/res/layout/row_youtube.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="46" selection-start="326" selection-end="326" vertical-scroll-proportion="-4.037037" vertical-offset="26" max-vertical-offset="405">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="activity_main.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/res/layout/activity_main.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="33" selection-start="731" selection-end="731" vertical-scroll-proportion="-3.3333333" vertical-offset="150" max-vertical-offset="480">
+            <state line="20" column="38" selection-start="843" selection-end="843" vertical-scroll-proportion="-11.111111" vertical-offset="0" max-vertical-offset="495">
               <folding>
                 <element signature="e#680#697#0" expanded="true" />
               </folding>
@@ -208,7 +174,7 @@
         <entry>
           <key>
             <ExternalProjectPojo>
-              <option name="name" value="YoutubeExample" />
+              <option name="name" value="YoutubeExampleProject" />
               <option name="path" value="$PROJECT_DIR$" />
             </ExternalProjectPojo>
           </key>
@@ -216,11 +182,11 @@
             <list>
               <ExternalProjectPojo>
                 <option name="name" value="YoutubeExample" />
-                <option name="path" value="$PROJECT_DIR$" />
+                <option name="path" value="$PROJECT_DIR$/YoutubeExample" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
-                <option name="name" value="YoutubeExample-YoutubeExample" />
-                <option name="path" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="YoutubeExampleProject" />
+                <option name="path" value="$PROJECT_DIR$" />
               </ExternalProjectPojo>
             </list>
           </value>
@@ -229,6 +195,17 @@
     </option>
     <option name="availableTasks">
       <map>
+        <entry key="$PROJECT_DIR$">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Initializes a new Gradle build. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="setupBuild" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/YoutubeExample">
           <value>
             <list>
@@ -243,49 +220,69 @@
                 <option name="name" value="assemble" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Assembles all builds for flavor BigBoss7" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="assembleBigBoss7" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the Debug build for flavor BigBoss7" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="assembleBigBoss7Debug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the Release build for flavor BigBoss7" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="assembleBigBoss7Release" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the Test build for the BigBoss7Debug build" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="assembleBigBoss7Test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles all builds for flavor ComedyNightsWithKapil" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="assembleComedyNightsWithKapil" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the Debug build for flavor ComedyNightsWithKapil" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="assembleComedyNightsWithKapilDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the Release build for flavor ComedyNightsWithKapil" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="assembleComedyNightsWithKapilRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the Test build for the ComedyNightsWithKapilDebug build" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="assembleComedyNightsWithKapilTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Assembles all Debug builds" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
                 <option name="name" value="assembleDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Assembles all builds for flavor Flavor1" />
+                <option name="description" value="Assembles all builds for flavor DidSuperMoms" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="assembleFlavor1" />
+                <option name="name" value="assembleDidSuperMoms" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Assembles the Debug build for flavor Flavor1" />
+                <option name="description" value="Assembles the Debug build for flavor DidSuperMoms" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="assembleFlavor1Debug" />
+                <option name="name" value="assembleDidSuperMomsDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Assembles the Release build for flavor Flavor1" />
+                <option name="description" value="Assembles the Release build for flavor DidSuperMoms" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="assembleFlavor1Release" />
+                <option name="name" value="assembleDidSuperMomsRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Assembles the Test build for the Flavor1Debug build" />
+                <option name="description" value="Assembles the Test build for the DidSuperMomsDebug build" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="assembleFlavor1Test" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles all builds for flavor Flavor2" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="assembleFlavor2" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles the Debug build for flavor Flavor2" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="assembleFlavor2Debug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles the Release build for flavor Flavor2" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="assembleFlavor2Release" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles the Test build for the Flavor2Debug build" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="assembleFlavor2Test" />
+                <option name="name" value="assembleDidSuperMomsTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles all Release builds" />
@@ -324,75 +321,111 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="compileFlavor1Debug" />
+                <option name="name" value="compileBigBoss7Debug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="compileFlavor1DebugAidl" />
+                <option name="name" value="compileBigBoss7DebugAidl" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="compileFlavor1DebugRenderscript" />
+                <option name="name" value="compileBigBoss7DebugRenderscript" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="compileFlavor1Release" />
+                <option name="name" value="compileBigBoss7Release" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="compileFlavor1ReleaseAidl" />
+                <option name="name" value="compileBigBoss7ReleaseAidl" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="compileFlavor1ReleaseRenderscript" />
+                <option name="name" value="compileBigBoss7ReleaseRenderscript" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="compileFlavor1Test" />
+                <option name="name" value="compileBigBoss7Test" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="compileFlavor1TestAidl" />
+                <option name="name" value="compileBigBoss7TestAidl" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="compileFlavor1TestRenderscript" />
+                <option name="name" value="compileBigBoss7TestRenderscript" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="compileFlavor2Debug" />
+                <option name="name" value="compileComedyNightsWithKapilDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="compileFlavor2DebugAidl" />
+                <option name="name" value="compileComedyNightsWithKapilDebugAidl" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="compileFlavor2DebugRenderscript" />
+                <option name="name" value="compileComedyNightsWithKapilDebugRenderscript" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="compileFlavor2Release" />
+                <option name="name" value="compileComedyNightsWithKapilRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="compileFlavor2ReleaseAidl" />
+                <option name="name" value="compileComedyNightsWithKapilReleaseAidl" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="compileFlavor2ReleaseRenderscript" />
+                <option name="name" value="compileComedyNightsWithKapilReleaseRenderscript" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="compileFlavor2Test" />
+                <option name="name" value="compileComedyNightsWithKapilTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="compileFlavor2TestAidl" />
+                <option name="name" value="compileComedyNightsWithKapilTestAidl" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="compileFlavor2TestRenderscript" />
+                <option name="name" value="compileComedyNightsWithKapilTestRenderscript" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="compileDidSuperMomsDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="compileDidSuperMomsDebugAidl" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="compileDidSuperMomsDebugRenderscript" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="compileDidSuperMomsRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="compileDidSuperMomsReleaseAidl" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="compileDidSuperMomsReleaseRenderscript" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="compileDidSuperMomsTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="compileDidSuperMomsTestAidl" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="compileDidSuperMomsTestRenderscript" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
@@ -409,14 +442,19 @@
                 <option name="name" value="connectedInstrumentTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Installs and runs the tests for Build 'Flavor1Debug' on connected devices." />
+                <option name="description" value="Installs and runs the tests for Build 'BigBoss7Debug' on connected devices." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="connectedInstrumentTestFlavor1Debug" />
+                <option name="name" value="connectedInstrumentTestBigBoss7Debug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Installs and runs the tests for Build 'Flavor2Debug' on connected devices." />
+                <option name="description" value="Installs and runs the tests for Build 'ComedyNightsWithKapilDebug' on connected devices." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="connectedInstrumentTestFlavor2Debug" />
+                <option name="name" value="connectedInstrumentTestComedyNightsWithKapilDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Installs and runs the tests for Build 'DidSuperMomsDebug' on connected devices." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="connectedInstrumentTestDidSuperMomsDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Runs all device checks using Device Providers and Test Servers." />
@@ -430,95 +468,141 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="dexFlavor1Debug" />
+                <option name="name" value="dexBigBoss7Debug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="dexFlavor1Release" />
+                <option name="name" value="dexBigBoss7Release" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="dexFlavor1Test" />
+                <option name="name" value="dexBigBoss7Test" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="dexFlavor2Debug" />
+                <option name="name" value="dexComedyNightsWithKapilDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="dexFlavor2Release" />
+                <option name="name" value="dexComedyNightsWithKapilRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="dexFlavor2Test" />
+                <option name="name" value="dexComedyNightsWithKapilTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="generateFlavor1DebugBuildConfig" />
+                <option name="name" value="dexDidSuperMomsDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="generateFlavor1DebugSources" />
+                <option name="name" value="dexDidSuperMomsRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="generateFlavor1ReleaseBuildConfig" />
+                <option name="name" value="dexDidSuperMomsTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="generateFlavor1ReleaseSources" />
+                <option name="name" value="generateBigBoss7DebugBuildConfig" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="generateFlavor1TestBuildConfig" />
+                <option name="name" value="generateBigBoss7DebugSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="generateFlavor1TestSources" />
+                <option name="name" value="generateBigBoss7ReleaseBuildConfig" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="generateFlavor2DebugBuildConfig" />
+                <option name="name" value="generateBigBoss7ReleaseSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="generateFlavor2DebugSources" />
+                <option name="name" value="generateBigBoss7TestBuildConfig" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="generateFlavor2ReleaseBuildConfig" />
+                <option name="name" value="generateBigBoss7TestSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="generateFlavor2ReleaseSources" />
+                <option name="name" value="generateComedyNightsWithKapilDebugBuildConfig" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="generateFlavor2TestBuildConfig" />
+                <option name="name" value="generateComedyNightsWithKapilDebugSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="generateFlavor2TestSources" />
+                <option name="name" value="generateComedyNightsWithKapilReleaseBuildConfig" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Installs the Debug build for flavor Flavor1" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="installFlavor1Debug" />
+                <option name="name" value="generateComedyNightsWithKapilReleaseSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Installs the Test build for the Flavor1Debug build" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="installFlavor1Test" />
+                <option name="name" value="generateComedyNightsWithKapilTestBuildConfig" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Installs the Debug build for flavor Flavor2" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="installFlavor2Debug" />
+                <option name="name" value="generateComedyNightsWithKapilTestSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Installs the Test build for the Flavor2Debug build" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="installFlavor2Test" />
+                <option name="name" value="generateDidSuperMomsDebugBuildConfig" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="generateDidSuperMomsDebugSources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="generateDidSuperMomsReleaseBuildConfig" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="generateDidSuperMomsReleaseSources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="generateDidSuperMomsTestBuildConfig" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="generateDidSuperMomsTestSources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Installs the Debug build for flavor BigBoss7" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="installBigBoss7Debug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Installs the Test build for the BigBoss7Debug build" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="installBigBoss7Test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Installs the Debug build for flavor ComedyNightsWithKapil" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="installComedyNightsWithKapilDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Installs the Test build for the ComedyNightsWithKapilDebug build" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="installComedyNightsWithKapilTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Installs the Debug build for flavor DidSuperMoms" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="installDidSuperMomsDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Installs the Test build for the DidSuperMomsDebug build" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="installDidSuperMomsTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Runs lint on all variants." />
@@ -527,99 +611,159 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="lintFlavor1Debug" />
+                <option name="name" value="lintBigBoss7Debug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="lintFlavor1Release" />
+                <option name="name" value="lintBigBoss7Release" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="lintFlavor1Test" />
+                <option name="name" value="lintBigBoss7Test" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="lintFlavor2Debug" />
+                <option name="name" value="lintComedyNightsWithKapilDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="lintFlavor2Release" />
+                <option name="name" value="lintComedyNightsWithKapilRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="lintFlavor2Test" />
+                <option name="name" value="lintComedyNightsWithKapilTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="mergeFlavor1DebugAssets" />
+                <option name="name" value="lintDidSuperMomsDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="mergeFlavor1DebugResources" />
+                <option name="name" value="lintDidSuperMomsRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="mergeFlavor1ReleaseAssets" />
+                <option name="name" value="lintDidSuperMomsTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="mergeFlavor1ReleaseResources" />
+                <option name="name" value="mergeBigBoss7DebugAssets" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="mergeFlavor1TestAssets" />
+                <option name="name" value="mergeBigBoss7DebugResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="mergeFlavor1TestResources" />
+                <option name="name" value="mergeBigBoss7ReleaseAssets" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="mergeFlavor2DebugAssets" />
+                <option name="name" value="mergeBigBoss7ReleaseResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="mergeFlavor2DebugResources" />
+                <option name="name" value="mergeBigBoss7TestAssets" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="mergeFlavor2ReleaseAssets" />
+                <option name="name" value="mergeBigBoss7TestResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="mergeFlavor2ReleaseResources" />
+                <option name="name" value="mergeComedyNightsWithKapilDebugAssets" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="mergeFlavor2TestAssets" />
+                <option name="name" value="mergeComedyNightsWithKapilDebugResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="mergeFlavor2TestResources" />
+                <option name="name" value="mergeComedyNightsWithKapilReleaseAssets" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="packageFlavor1Debug" />
+                <option name="name" value="mergeComedyNightsWithKapilReleaseResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="packageFlavor1Release" />
+                <option name="name" value="mergeComedyNightsWithKapilTestAssets" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="packageFlavor1Test" />
+                <option name="name" value="mergeComedyNightsWithKapilTestResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="packageFlavor2Debug" />
+                <option name="name" value="mergeDidSuperMomsDebugAssets" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="packageFlavor2Release" />
+                <option name="name" value="mergeDidSuperMomsDebugResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="packageFlavor2Test" />
+                <option name="name" value="mergeDidSuperMomsReleaseAssets" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="mergeDidSuperMomsReleaseResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="mergeDidSuperMomsTestAssets" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="mergeDidSuperMomsTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="packageBigBoss7Debug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="packageBigBoss7Release" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="packageBigBoss7Test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="packageComedyNightsWithKapilDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="packageComedyNightsWithKapilRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="packageComedyNightsWithKapilTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="packageDidSuperMomsDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="packageDidSuperMomsRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="packageDidSuperMomsTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="preBigBoss7DebugBuild" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="preBigBoss7ReleaseBuild" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="preBigBoss7TestBuild" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
@@ -627,123 +771,176 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="preFlavor1DebugBuild" />
+                <option name="name" value="preComedyNightsWithKapilDebugBuild" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="preFlavor1ReleaseBuild" />
+                <option name="name" value="preComedyNightsWithKapilReleaseBuild" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="preFlavor1TestBuild" />
+                <option name="name" value="preComedyNightsWithKapilTestBuild" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="preFlavor2DebugBuild" />
+                <option name="name" value="preDidSuperMomsDebugBuild" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="preFlavor2ReleaseBuild" />
+                <option name="name" value="preDidSuperMomsReleaseBuild" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="preFlavor2TestBuild" />
+                <option name="name" value="preDidSuperMomsTestBuild" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="prepareFlavor1DebugDependencies" />
+                <option name="name" value="prepareBigBoss7DebugDependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="prepareFlavor1ReleaseDependencies" />
+                <option name="name" value="prepareBigBoss7ReleaseDependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="prepareFlavor1TestDependencies" />
+                <option name="name" value="prepareBigBoss7TestDependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:appcompat-v7:18.0.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="prepareComAndroidSupportAppcompatV71800Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="prepareFlavor2DebugDependencies" />
+                <option name="name" value="prepareComedyNightsWithKapilDebugDependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="prepareFlavor2ReleaseDependencies" />
+                <option name="name" value="prepareComedyNightsWithKapilReleaseDependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="prepareFlavor2TestDependencies" />
+                <option name="name" value="prepareComedyNightsWithKapilTestDependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="processFlavor1DebugJavaRes" />
+                <option name="name" value="prepareDidSuperMomsDebugDependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="processFlavor1DebugManifest" />
+                <option name="name" value="prepareDidSuperMomsReleaseDependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="processFlavor1DebugResources" />
+                <option name="name" value="prepareDidSuperMomsTestDependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="processFlavor1ReleaseJavaRes" />
+                <option name="name" value="processBigBoss7DebugJavaRes" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="processFlavor1ReleaseManifest" />
+                <option name="name" value="processBigBoss7DebugManifest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="processFlavor1ReleaseResources" />
+                <option name="name" value="processBigBoss7DebugResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="processFlavor1TestJavaRes" />
+                <option name="name" value="processBigBoss7ReleaseJavaRes" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="processFlavor1TestResources" />
+                <option name="name" value="processBigBoss7ReleaseManifest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="processFlavor1TestTestManifest" />
+                <option name="name" value="processBigBoss7ReleaseResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="processFlavor2DebugJavaRes" />
+                <option name="name" value="processBigBoss7TestJavaRes" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="processFlavor2DebugManifest" />
+                <option name="name" value="processBigBoss7TestResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="processFlavor2DebugResources" />
+                <option name="name" value="processBigBoss7TestTestManifest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="processFlavor2ReleaseJavaRes" />
+                <option name="name" value="processComedyNightsWithKapilDebugJavaRes" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="processFlavor2ReleaseManifest" />
+                <option name="name" value="processComedyNightsWithKapilDebugManifest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="processFlavor2ReleaseResources" />
+                <option name="name" value="processComedyNightsWithKapilDebugResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="processFlavor2TestJavaRes" />
+                <option name="name" value="processComedyNightsWithKapilReleaseJavaRes" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="processFlavor2TestResources" />
+                <option name="name" value="processComedyNightsWithKapilReleaseManifest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="processFlavor2TestTestManifest" />
+                <option name="name" value="processComedyNightsWithKapilReleaseResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="processComedyNightsWithKapilTestJavaRes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="processComedyNightsWithKapilTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="processComedyNightsWithKapilTestTestManifest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="processDidSuperMomsDebugJavaRes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="processDidSuperMomsDebugManifest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="processDidSuperMomsDebugResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="processDidSuperMomsReleaseJavaRes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="processDidSuperMomsReleaseManifest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="processDidSuperMomsReleaseResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="processDidSuperMomsTestJavaRes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="processDidSuperMomsTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="processDidSuperMomsTestTestManifest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays the signing info for each variant" />
@@ -756,34 +953,49 @@
                 <option name="name" value="uninstallAll" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Uninstalls the Debug build for flavor Flavor1" />
+                <option name="description" value="Uninstalls the Debug build for flavor BigBoss7" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="uninstallFlavor1Debug" />
+                <option name="name" value="uninstallBigBoss7Debug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Uninstalls the Release build for flavor Flavor1" />
+                <option name="description" value="Uninstalls the Release build for flavor BigBoss7" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="uninstallFlavor1Release" />
+                <option name="name" value="uninstallBigBoss7Release" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Uninstalls the Test build for the Flavor1Debug build" />
+                <option name="description" value="Uninstalls the Test build for the BigBoss7Debug build" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="uninstallFlavor1Test" />
+                <option name="name" value="uninstallBigBoss7Test" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Uninstalls the Debug build for flavor Flavor2" />
+                <option name="description" value="Uninstalls the Debug build for flavor ComedyNightsWithKapil" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="uninstallFlavor2Debug" />
+                <option name="name" value="uninstallComedyNightsWithKapilDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Uninstalls the Release build for flavor Flavor2" />
+                <option name="description" value="Uninstalls the Release build for flavor ComedyNightsWithKapil" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="uninstallFlavor2Release" />
+                <option name="name" value="uninstallComedyNightsWithKapilRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Uninstalls the Test build for the Flavor2Debug build" />
+                <option name="description" value="Uninstalls the Test build for the ComedyNightsWithKapilDebug build" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="uninstallFlavor2Test" />
+                <option name="name" value="uninstallComedyNightsWithKapilTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Uninstalls the Debug build for flavor DidSuperMoms" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="uninstallDidSuperMomsDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Uninstalls the Release build for flavor DidSuperMoms" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="uninstallDidSuperMomsRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Uninstalls the Test build for the DidSuperMomsDebug build" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="uninstallDidSuperMomsTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
@@ -796,29 +1008,29 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="1378831391000" />
+        <entry key="$PROJECT_DIR$" value="1378363020000" />
       </map>
     </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/YoutubeExample/src/main/java/com/khushnish/youtubeexample/YouTubeMedia.java" />
-        <option value="$PROJECT_DIR$/YoutubeExample/src/main/java/com/khushnish/youtubeexample/YouTubeVideo.java" />
-        <option value="$PROJECT_DIR$/YoutubeExample/src/main/java/com/khushnish/youtubeexample/YouTubeManager.java" />
         <option value="$PROJECT_DIR$/YoutubeExample/src/main/java/com/khushnish/youtubeexample/YoutubeAdapter.java" />
         <option value="$PROJECT_DIR$/YoutubeExample/src/main/java/com/khushnish/youtubeexample/Utils.java" />
-        <option value="$PROJECT_DIR$/YoutubeExample/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/YoutubeExample/src/main/java/com/khushnish/youtubeexample/MainActivity.java" />
         <option value="$PROJECT_DIR$/YoutubeExample/src/main/java/com/khushnish/youtubeexample/YoutubeActivity.java" />
-        <option value="$PROJECT_DIR$/YoutubeExample/build.gradle" />
         <option value="$PROJECT_DIR$/local.properties" />
         <option value="$PROJECT_DIR$/YoutubeExample/src/main/flavor2/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/YoutubeExample/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/YoutubeExample/src/main/flavor1/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/YoutubeExample/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/YoutubeExample/src/main/res/layout/row_youtube.xml" />
         <option value="$PROJECT_DIR$/YoutubeExample/src/main/res/layout/activity_youtube.xml" />
+        <option value="$PROJECT_DIR$/YoutubeExample/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/YoutubeExample/src/main/res/values/styles.xml" />
+        <option value="$PROJECT_DIR$/YoutubeExample/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/YoutubeExample/src/main/res/menu/sortby.xml" />
+        <option value="$PROJECT_DIR$/YoutubeExample/src/main/bigBoss7/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/YoutubeExample/build.gradle" />
+        <option value="$PROJECT_DIR$/YoutubeExample/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/YoutubeExample/src/main/java/com/khushnish/youtubeexample/MainActivity.java" />
       </list>
     </option>
   </component>
@@ -827,8 +1039,8 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="1280" />
-    <option name="height" value="697" />
+    <option name="width" value="1920" />
+    <option name="height" value="972" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -883,6 +1095,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -902,6 +1115,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="YoutubeExampleProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YoutubeExample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YoutubeExampleProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="YoutubeExample" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -912,21 +1139,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="YoutubeExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="YoutubeExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="YoutubeExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="YoutubeExample" />
+              <option name="myItemId" value="YoutubeExampleProject" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -937,10 +1150,69 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YoutubeExample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YoutubeExampleProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YoutubeExample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YoutubeExample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YoutubeExampleProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YoutubeExample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -970,14 +1242,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/YoutubeExample/src/main/bigboss7Flavor/res" />
+      <recent name="$PROJECT_DIR$/YoutubeExample/libs" />
       <recent name="$PROJECT_DIR$/YoutubeExample/src/main/flavor1/res" />
       <recent name="$PROJECT_DIR$/YoutubeExample/src/main/res" />
-      <recent name="$PROJECT_DIR$/YoutubeExample/libs" />
       <recent name="$PROJECT_DIR$/YoutubeExample/src/main/DidMoms" />
-      <recent name="$PROJECT_DIR$/YoutubeExample/src/main" />
     </key>
   </component>
-  <component name="RunManager" selected="Android Application.YoutubeExample-YoutubeExample">
+  <component name="RunManager" selected="Android Application.YoutubeExample">
     <configuration default="false" name="YoutubeExampleProject [setupBuild]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -1180,35 +1452,55 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="697" extended-state="6" />
+    <frame x="0" y="22" width="1920" height="972" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298122" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32792208" sideWeight="0.64818025" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874355" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286385" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286385" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29590642" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29460093" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2504052" sideWeight="0.19621342" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32982457" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.18197574" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32235703" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35181975" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298122" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.34976527" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32159624" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3532864" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.64818025" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298122" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.64818025" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.4662045" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32582322" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.6467136" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32511738" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32865497" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1225,104 +1517,16 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/res/values/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/java/com/khushnish/youtubeexample/YoutubeAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="25" selection-start="1364" selection-end="1364" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1065" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="41" selection-start="1178" selection-end="1178" vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="735">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/java/com/khushnish/youtubeexample/YoutubeActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="31" selection-start="2113" selection-end="2113" vertical-scroll-proportion="0.0" vertical-offset="945" max-vertical-offset="2055">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/YoutubeExample/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="146" selection-end="146" vertical-scroll-proportion="0.0" vertical-offset="4" max-vertical-offset="1485">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="104" selection-start="393" selection-end="393" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/local.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="44" selection-start="472" selection-end="472" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/flavor2/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="12" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/flavor1/res/values/strings.xml">
+    <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/comedyNightsWithKapil/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="12" selection-start="321" selection-end="321" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/java/com/khushnish/youtubeexample/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="49" selection-start="2115" selection-end="2115" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="2310">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/Comedy Nights With Kapil/480x800_1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/Comedy Nights With Kapil/480x800_2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/Comedy Nights With Kapil/480x800_3.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="33" selection-start="731" selection-end="731" vertical-scroll-proportion="-3.3333333" vertical-offset="150" max-vertical-offset="480">
-          <folding>
-            <element signature="e#680#697#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/res/layout/row_youtube.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="46" selection-start="326" selection-end="326" vertical-scroll-proportion="-4.037037" vertical-offset="26" max-vertical-offset="405">
+        <state line="9" column="46" selection-start="326" selection-end="326" vertical-scroll-proportion="0.27217743" vertical-offset="0" max-vertical-offset="496">
           <folding />
         </state>
       </provider>
@@ -1332,14 +1536,115 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/res/layout/activity_youtube.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="29" selection-start="696" selection-end="696" vertical-scroll-proportion="0.34169278" vertical-offset="116" max-vertical-offset="465">
+        <state line="9" column="26" selection-start="432" selection-end="432" vertical-scroll-proportion="0.27217743" vertical-offset="0" max-vertical-offset="496">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/comedyNightsWithKapil/res/drawable-hdpi/ic_launcher.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="691" selection-end="691" vertical-scroll-proportion="0.60229445" vertical-offset="0" max-vertical-offset="523">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/res/menu/youtube.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="244" selection-end="244" vertical-scroll-proportion="0.17208412" vertical-offset="0" max-vertical-offset="523">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="19" selection-start="610" selection-end="610" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/res/menu/sortby.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="35" selection-start="454" selection-end="464" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
           <folding>
-            <element signature="e#722#739#0" expanded="true" />
+            <element signature="e#181#198#0" expanded="true" />
+            <element signature="e#305#323#0" expanded="true" />
+            <element signature="e#589#602#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/bigBoss7/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="47" selection-start="99" selection-end="99" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YoutubeExample/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="79" column="44" selection-start="2197" selection-end="2197" vertical-scroll-proportion="0.0" vertical-offset="796" max-vertical-offset="1680">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/didSuperMoms/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="12" selection-start="311" selection-end="311" vertical-scroll-proportion="0.14563107" vertical-offset="0" max-vertical-offset="824">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/res/menu/main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="39" selection-start="235" selection-end="235" vertical-scroll-proportion="0.07281554" vertical-offset="0" max-vertical-offset="824">
+          <folding>
+            <element signature="e#132#157#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="38" selection-start="843" selection-end="843" vertical-scroll-proportion="-11.111111" vertical-offset="0" max-vertical-offset="495">
+          <folding>
+            <element signature="e#680#697#0" expanded="true" />
           </folding>
         </state>
       </provider>
       <provider editor-type-id="android-designer">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="47" selection-start="1162" selection-end="1162" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
+          <folding>
+            <element signature="e#975#993#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/java/com/khushnish/youtubeexample/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="56" selection-start="2249" selection-end="2249" vertical-scroll-proportion="0.3276699" vertical-offset="0" max-vertical-offset="3570">
+          <folding>
+            <element signature="e#2659#2687#0" expanded="true" />
+            <element signature="e#3533#4884#0" expanded="true" />
+            <element signature="e#3992#4816#0" expanded="true" />
+            <element signature="e#4797#4798#0" expanded="true" />
+            <element signature="e#4873#4874#0" expanded="true" />
+            <element signature="e#8617#8644#0" expanded="true" />
+            <element signature="e#8675#8703#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>

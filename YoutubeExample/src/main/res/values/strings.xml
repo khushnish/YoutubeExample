@@ -11,4 +11,8 @@
         <item>YouTube Player</item>
         <item>Browser</item>
     </array>
+    <string name="relevance">Relevance</string>
+    <string name="upload_date">Upload date</string>
+    <string name="view_count">View count</string>
+    <string name="rating">Rating</string>
 </resources>
