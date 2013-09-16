@@ -19,6 +19,7 @@ dependencies {
 dependencies {
     compile 'com.android.support:support-v4:18.0.0'
     compile 'com.android.support:appcompat-v7:18.0.+'
+//    compile files('libs/android-support-v4.jar')
     compile files('libs/google-api-client-1.16.0-rc.jar')
     compile files('libs/google-api-client-android-1.16.0-rc.jar')
     compile files('libs/google-oauth-client-1.16.0-rc.jar')
@@ -68,7 +69,7 @@ android {
 //            signingConfig flavor2SigningVariable
         }
 
-        bigBoss7 {
+        biggBoss7 {
             packageName "com.khushnish.bigboss7"
 //            signingConfig flavor2SigningVariable
         }
@@ -100,8 +101,8 @@ android {
             res.srcDirs = ['src/main/didSuperMoms/res']
         }
 
-        bigBoss7 {
-            res.srcDirs = ['src/main/bigBoss7/res']
+        biggBoss7 {
+            res.srcDirs = ['src/main/biggBoss7/res']
         }
     }
 }

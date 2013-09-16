@@ -9,6 +9,7 @@ import android.content.res.Configuration;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.support.v4.app.FragmentManager;
 import android.support.v7.app.ActionBarActivity;
 import android.util.Log;
 import android.view.Menu;
@@ -80,6 +81,9 @@ public class MainActivity extends ActionBarActivity {
 
     private void initializeComponents() {
 
+        getSupportActionBar().setHomeButtonEnabled(false);
+        getSupportActionBar().setDisplayShowHomeEnabled(false);
+
         initImageLoader(this);
 
         adView = (AdView) findViewById(R.id.activity_main_adView);
@@ -120,20 +124,17 @@ public class MainActivity extends ActionBarActivity {
 
             @Override
             public void onScrollStateChanged(AbsListView view, int scrollState) {
-                int threshold = 1;
-                int count = list.getCount();
-
-                if (scrollState == SCROLL_STATE_IDLE) {
-                    if (list.getLastVisiblePosition() >= count
-                            - threshold) {
-                        new YoutubeTask().execute(sorting);
-                    }
-                }
             }
 
             @Override
             public void onScroll(AbsListView view, int firstVisibleItem,
                                  int visibleItemCount, int totalItemCount) {
+                boolean loadMore = /* maybe add a padding */
+                        firstVisibleItem + visibleItemCount >= totalItemCount;
+
+                if(loadMore) {
+                    new YoutubeTask().execute(sorting);
+                }
             }
         });
     }
@@ -164,24 +165,28 @@ public class MainActivity extends ActionBarActivity {
             case R.id.relevance:
                 pageToken = "";
                 sorting = "relevance";
+                searchResults.clear();
                 new YoutubeTask().execute(sorting);
                 break;
 
             case R.id.upload_date:
                 pageToken = "";
                 sorting = "date";
+                searchResults.clear();
                 new YoutubeTask().execute(sorting);
                 break;
 
             case R.id.view_count:
                 pageToken = "";
                 sorting = "viewCount";
+                searchResults.clear();
                 new YoutubeTask().execute(sorting);
                 break;
 
             case R.id.rating:
                 pageToken = "";
                 sorting = "rating";
+                searchResults.clear();
                 new YoutubeTask().execute(sorting);
                 break;
         }
@@ -212,6 +217,11 @@ public class MainActivity extends ActionBarActivity {
             adView.destroy();
         }
         super.onDestroy();
+    }
+
+    @Override
+    public FragmentManager getSupportFragmentManager() {
+        return null;
     }
 
     private class YoutubeTask extends AsyncTask<String, Void, Void> {
