@@ -15,7 +15,8 @@
         android:layout_centerHorizontal="true"
         ads:adSize="SMART_BANNER"
         ads:adUnitId="@string/ads_key"
-        ads:loadAdOnCreate="true" />
+        ads:loadAdOnCreate="true"
+        android:visibility="gone"/>
 
     <com.google.android.youtube.player.YouTubePlayerView
         android:id="@+id/youtube_view"
