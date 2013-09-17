@@ -2,16 +2,16 @@
 <merger>
 
     <dataSet config="ComAndroidSupportAppcompatV71800.aar" >
-        <source path="/Users/KhushNish/Git/YoutubeExample/YoutubeExample/build/exploded-bundles/ComAndroidSupportAppcompatV71800.aar/assets" />
+        <source path="/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/build/exploded-bundles/ComAndroidSupportAppcompatV71800.aar/assets" />
     </dataSet>
     <dataSet config="main" >
-        <source path="/Users/KhushNish/Git/YoutubeExample/YoutubeExample/src/main/assets" />
+        <source path="/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/src/main/assets" />
     </dataSet>
     <dataSet config="didSuperMoms" >
-        <source path="/Users/KhushNish/Git/YoutubeExample/YoutubeExample/src/didSuperMoms/assets" />
+        <source path="/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/src/didSuperMoms/assets" />
     </dataSet>
     <dataSet config="debug" >
-        <source path="/Users/KhushNish/Git/YoutubeExample/YoutubeExample/src/debug/assets" />
+        <source path="/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/src/debug/assets" />
     </dataSet>
 
 </merger>

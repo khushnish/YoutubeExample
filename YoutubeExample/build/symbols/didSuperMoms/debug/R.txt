@@ -5,6 +5,7 @@ int anim abc_slide_in_top 0x7f040003
 int anim abc_slide_out_bottom 0x7f040004
 int anim abc_slide_out_top 0x7f040005
 int array pick_player 0x7f050000
+int array sortby 0x7f050001
 int attr actionBarDivider 0x7f010000
 int attr actionBarItemBackground 0x7f010001
 int attr actionBarSize 0x7f010002

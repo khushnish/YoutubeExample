@@ -10,17 +10,16 @@ import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v4.app.FragmentManager;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
-import android.util.Log;
-import android.view.Menu;
-import android.view.MenuInflater;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AbsListView;
 import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.RelativeLayout;
+import android.widget.SpinnerAdapter;
 
 import com.google.ads.AdRequest;
 import com.google.ads.AdSize;
@@ -46,8 +45,6 @@ import java.util.List;
 
 public class MainActivity extends ActionBarActivity {
 
-    private final String TAG = "MainActivity";
-
     private final HttpTransport HTTP_TRANSPORT = new NetHttpTransport();
     private final long NUMBER_OF_VIDEOS_RETURNED = 50;
     private YouTube youtube;
@@ -69,20 +66,44 @@ public class MainActivity extends ActionBarActivity {
             public void initialize(HttpRequest request) throws IOException {
             }
         }).setApplicationName(getString(R.string.app_name)).build();
-
-        if (Utils.checkInternetConnection(MainActivity.this)) {
-            new YoutubeTask().execute(sorting);
-        } else {
-            Utils.displayDialog(getString(R.string.app_name),
-                    getString(R.string.check_internet_connection),
-                    this, getString(android.R.string.ok));
-        }
     }
 
     private void initializeComponents() {
 
+        final SpinnerAdapter mSpinnerAdapter = ArrayAdapter.createFromResource(this, R.array.sortby,
+                android.R.layout.simple_expandable_list_item_1);
+
         getSupportActionBar().setHomeButtonEnabled(false);
         getSupportActionBar().setDisplayShowHomeEnabled(false);
+        getSupportActionBar().setNavigationMode(ActionBar.NAVIGATION_MODE_LIST);
+
+        getSupportActionBar().setListNavigationCallbacks(mSpinnerAdapter, new ActionBar.OnNavigationListener() {
+            @Override
+            public boolean onNavigationItemSelected(int pos, long l) {
+                pageToken = "";
+                searchResults.clear();
+                youTubeAdapter.notifyDataSetChanged();
+
+                if (pos == 0) {
+                    sorting = "relevance";
+                } else if (pos == 1) {
+                    sorting = "date";
+                } else if (pos == 2) {
+                    sorting = "viewCount";
+                } else if (pos == 3) {
+                    sorting = "rating";
+                }
+
+                if (Utils.checkInternetConnection(MainActivity.this)) {
+                    new YoutubeTask().execute(sorting);
+                } else {
+                    Utils.displayDialog(getString(R.string.app_name),
+                            getString(R.string.check_internet_connection),
+                            MainActivity.this, getString(android.R.string.ok));
+                }
+                return true;
+            }
+        });
 
         initImageLoader(this);
 
@@ -105,7 +126,6 @@ public class MainActivity extends ActionBarActivity {
                         dialog.dismiss();
                         if (which == 0) {
                             final Intent intent = new Intent(MainActivity.this, YoutubeActivity.class);
-                            Log.e("Youtube", "Video Id : " + result.getId().getVideoId());
                             intent.putExtra("youtubeVideoId", result.getId().getVideoId());
                             startActivity(intent);
                         } else {
@@ -132,7 +152,7 @@ public class MainActivity extends ActionBarActivity {
                 boolean loadMore = /* maybe add a padding */
                         firstVisibleItem + visibleItemCount >= totalItemCount;
 
-                if(loadMore) {
+                if (loadMore) {
                     new YoutubeTask().execute(sorting);
                 }
             }
@@ -147,51 +167,6 @@ public class MainActivity extends ActionBarActivity {
                 .tasksProcessingOrder(QueueProcessingType.LIFO)
                 .build();
         ImageLoader.getInstance().init(config);
-    }
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        final MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.sortby, menu);
-        return super.onCreateOptionsMenu(menu);
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-
-        super.onOptionsItemSelected(item);
-
-        switch (item.getItemId()) {
-            case R.id.relevance:
-                pageToken = "";
-                sorting = "relevance";
-                searchResults.clear();
-                new YoutubeTask().execute(sorting);
-                break;
-
-            case R.id.upload_date:
-                pageToken = "";
-                sorting = "date";
-                searchResults.clear();
-                new YoutubeTask().execute(sorting);
-                break;
-
-            case R.id.view_count:
-                pageToken = "";
-                sorting = "viewCount";
-                searchResults.clear();
-                new YoutubeTask().execute(sorting);
-                break;
-
-            case R.id.rating:
-                pageToken = "";
-                sorting = "rating";
-                searchResults.clear();
-                new YoutubeTask().execute(sorting);
-                break;
-        }
-        return true;
-
     }
 
     @Override
@@ -219,7 +194,6 @@ public class MainActivity extends ActionBarActivity {
         super.onDestroy();
     }
 
-    @Override
     public FragmentManager getSupportFragmentManager() {
         return null;
     }
@@ -260,10 +234,9 @@ public class MainActivity extends ActionBarActivity {
                 pageToken = searchResponse.getNextPageToken();
                 return null;
             } catch (GoogleJsonResponseException e) {
-                Log.e(TAG, "There was a service error: " + e.getDetails().getCode() + " : "
-                        + e.getDetails().getMessage());
+                e.printStackTrace();
             } catch (IOException e) {
-                Log.e(TAG, "There was an IO error: " + e.getCause() + " : " + e.getMessage());
+                e.printStackTrace();
             } catch (Exception e) {
                 e.printStackTrace();
             }

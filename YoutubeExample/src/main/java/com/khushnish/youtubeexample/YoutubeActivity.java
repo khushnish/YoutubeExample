@@ -41,12 +41,14 @@ public class YoutubeActivity extends YouTubeBaseActivity implements
 
         videoId = getIntent().getStringExtra("youtubeVideoId");
         youTubeView = (YouTubePlayerView) findViewById(R.id.youtube_view);
+        youTubeView.initialize(getString(R.string.api_key), this);
     }
 
     @Override
     protected void onResume() {
-        super.onResume();
+
         if ( !isInitialized ) {
+
             youTubeView.initialize(getString(R.string.api_key), this);
         }
     }

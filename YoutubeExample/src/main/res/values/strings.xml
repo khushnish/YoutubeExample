@@ -11,6 +11,12 @@
         <item>YouTube Player</item>
         <item>Browser</item>
     </array>
+    <array name="sortby">
+        <item>Relevance</item>
+        <item>Upload date</item>
+        <item>View count</item>
+        <item>Rating</item>
+    </array>
     <string name="relevance">Relevance</string>
     <string name="upload_date">Upload date</string>
     <string name="view_count">View count</string>

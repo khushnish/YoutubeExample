@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- From: file:/Users/KhushNish/Git/YoutubeExample/YoutubeExample/src/main/res/values-v14/styles.xml -->
+    <!-- From: file:/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/src/main/res/values-v14/styles.xml -->
     <style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
         <!-- API 14 theme customizations can go here. -->
     </style>
-    <!-- From: file:/Users/KhushNish/Git/YoutubeExample/YoutubeExample/build/exploded-bundles/ComAndroidSupportAppcompatV71800.aar/res/values-v14/values.xml -->
+    <!-- From: file:/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/build/exploded-bundles/ComAndroidSupportAppcompatV71800.aar/res/values-v14/values.xml -->
     <style name="TextAppearance.AppCompat.Base.SearchResult.Subtitle" parent="@android:TextAppearance.Holo.SearchResult.Subtitle" />
 
     <style name="TextAppearance.AppCompat.Base.SearchResult.Title" parent="@android:TextAppearance.Holo.SearchResult.Title" />

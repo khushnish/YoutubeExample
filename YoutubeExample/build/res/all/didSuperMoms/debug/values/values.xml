@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- From: file:/Users/KhushNish/Git/YoutubeExample/YoutubeExample/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/src/main/res/values/strings.xml -->
     <array name="pick_player">
         <item>YouTube Player</item>
         <item>Browser</item>
     </array>
-    <!-- From: file:/Users/KhushNish/Git/YoutubeExample/YoutubeExample/build/exploded-bundles/ComAndroidSupportAppcompatV71800.aar/res/values/values.xml -->
+    <array name="sortby">
+        <item>Relevance</item>
+        <item>Upload date</item>
+        <item>View count</item>
+        <item>Rating</item>
+    </array>
+    <!-- From: file:/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/build/exploded-bundles/ComAndroidSupportAppcompatV71800.aar/res/values/values.xml -->
     <attr name="actionBarDivider" format="reference" />
     <attr name="actionBarItemBackground" format="reference" />
     <attr name="actionBarSize" format="dimension" />
@@ -484,10 +490,10 @@
     <dimen name="abc_panel_menu_list_width">296dp</dimen>
     <dimen name="abc_search_view_preferred_width">320dip</dimen>
     <dimen name="abc_search_view_text_min_width">160dip</dimen>
-    <!-- From: file:/Users/KhushNish/Git/YoutubeExample/YoutubeExample/src/main/res/values/dimens.xml -->
+    <!-- From: file:/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/src/main/res/values/dimens.xml -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <!-- From: file:/Users/KhushNish/Git/YoutubeExample/YoutubeExample/build/exploded-bundles/ComAndroidSupportAppcompatV71800.aar/res/values/values.xml -->
+    <!-- From: file:/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/build/exploded-bundles/ComAndroidSupportAppcompatV71800.aar/res/values/values.xml -->
     <item name="action_bar_activity_content" type="id"/>
     <item name="action_menu_divider" type="id"/>
     <item name="action_menu_presenter" type="id"/>
@@ -508,14 +514,14 @@
     <string name="abc_searchview_description_voice">Voice search</string>
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
-    <!-- From: file:/Users/KhushNish/Git/YoutubeExample/YoutubeExample/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/src/main/res/values/strings.xml -->
     <string name="action_settings">Settings</string>
-    <!-- From: file:/Users/KhushNish/Git/YoutubeExample/YoutubeExample/src/main/didSuperMoms/res/values/strings.xml -->
+    <!-- From: file:/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/src/main/didSuperMoms/res/values/strings.xml -->
     <string name="ads_interstitial_key">76a3c03c752b4896</string>
     <string name="ads_key">a15230929e26c79</string>
     <string name="api_key">AIzaSyBoZch5LQ3N_c_cOOtyyn8O1OvEDQ0FOLI</string>
     <string name="app_name">DID Super Moms</string>
-    <!-- From: file:/Users/KhushNish/Git/YoutubeExample/YoutubeExample/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/src/main/res/values/strings.xml -->
     <string name="check_internet_connection">Please Check Internet Connection.</string>
     <string name="rating">Rating</string>
     <string name="relevance">Relevance</string>
@@ -524,7 +530,7 @@
     <string name="update_youtube_player">Update YouTube Player to view video or play in browser</string>
     <string name="upload_date">Upload date</string>
     <string name="view_count">View count</string>
-    <!-- From: file:/Users/KhushNish/Git/YoutubeExample/YoutubeExample/src/main/res/values/styles.xml -->
+    <!-- From: file:/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/src/main/res/values/styles.xml -->
     <style name="AppBaseTheme" parent="android:Theme">
         <!--
             Theme customizations available in newer API levels can go in
@@ -537,7 +543,7 @@
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
 
     </style>
-    <!-- From: file:/Users/KhushNish/Git/YoutubeExample/YoutubeExample/build/exploded-bundles/ComAndroidSupportAppcompatV71800.aar/res/values/values.xml -->
+    <!-- From: file:/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/build/exploded-bundles/ComAndroidSupportAppcompatV71800.aar/res/values/values.xml -->
     <style name="TextAppearance.AppCompat.Base.CompactMenu.Dialog" parent="android:TextAppearance.Medium">
         <item name="android:textColor">@android:color/primary_text_light</item>
     </style>
