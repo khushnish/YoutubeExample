@@ -44,7 +44,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -81,6 +80,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -90,10 +90,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="build.gradle" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="build.gradle" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/YoutubeExample/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="226" selection-end="226" vertical-scroll-proportion="0.0" vertical-offset="197" max-vertical-offset="1695">
+            <state line="16" column="0" selection-start="224" selection-end="224" vertical-scroll-proportion="0.098471984" vertical-offset="182" max-vertical-offset="1695">
               <folding />
             </state>
           </provider>
@@ -102,7 +102,7 @@
       <file leaf-file-name="local.properties" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/local.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="44" selection-start="472" selection-end="472" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="240">
+            <state line="11" column="0" selection-start="477" selection-end="477" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="255">
               <folding />
             </state>
           </provider>
@@ -111,32 +111,18 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/java/com/khushnish/youtubeexample/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="28" selection-start="2466" selection-end="2466" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="3270">
-              <folding>
-                <element signature="e#2658#2686#0" expanded="true" />
-                <element signature="e#4693#5953#0" expanded="true" />
-                <element signature="e#5152#5885#0" expanded="true" />
-                <element signature="e#5866#5867#0" expanded="true" />
-                <element signature="e#5942#5943#0" expanded="true" />
-              </folding>
+            <state line="64" column="28" selection-start="2466" selection-end="2466" vertical-scroll-proportion="0.0" vertical-offset="960" max-vertical-offset="3930">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="YoutubeActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="YoutubeActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/java/com/khushnish/youtubeexample/YoutubeActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="70" selection-start="1689" selection-end="1747" vertical-scroll-proportion="0.3409091" vertical-offset="330" max-vertical-offset="1785">
+            <state line="82" column="24" selection-start="3081" selection-end="3081" vertical-scroll-proportion="0.0" vertical-offset="630" max-vertical-offset="1725">
               <folding>
-                <element signature="e#1301#1341#0" expanded="true" />
-                <element signature="e#1712#1739#0" expanded="true" />
-                <element signature="e#2384#2749#0" expanded="true" />
-                <element signature="e#2738#2739#0" expanded="true" />
-                <element signature="e#2811#3000#0" expanded="true" />
-                <element signature="e#2989#2990#0" expanded="true" />
                 <element signature="e#3081#3109#0" expanded="true" />
-                <element signature="e#3138#3179#0" expanded="true" />
-                <element signature="e#3878#3905#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -157,10 +143,8 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="32" selection-start="764" selection-end="764" vertical-scroll-proportion="-9.444445" vertical-offset="0" max-vertical-offset="525">
-              <folding>
-                <element signature="e#680#697#0" expanded="true" />
-              </folding>
+            <state line="18" column="0" selection-start="768" selection-end="768" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="525">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -171,18 +155,9 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="32" selection-start="806" selection-end="806" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="480">
-              <folding>
-                <element signature="e#722#739#0" expanded="true" />
-              </folding>
+            <state line="19" column="0" selection-start="810" selection-end="810" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="480">
+              <folding />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="1280x800_1.png" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/Comedy Nights With Kapil/10 inch/1280x800_1.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
           </provider>
         </entry>
       </file>
@@ -219,7 +194,7 @@
         <entry>
           <key>
             <ExternalProjectPojo>
-              <option name="name" value="YoutubeExample" />
+              <option name="name" value="YoutubeExampleProject" />
               <option name="path" value="$PROJECT_DIR$" />
             </ExternalProjectPojo>
           </key>
@@ -227,11 +202,11 @@
             <list>
               <ExternalProjectPojo>
                 <option name="name" value="YoutubeExample" />
-                <option name="path" value="$PROJECT_DIR$" />
+                <option name="path" value="$PROJECT_DIR$/YoutubeExample" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
-                <option name="name" value="YoutubeExample-YoutubeExample" />
-                <option name="path" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="YoutubeExampleProject" />
+                <option name="path" value="$PROJECT_DIR$" />
               </ExternalProjectPojo>
             </list>
           </value>
@@ -240,17 +215,6 @@
     </option>
     <option name="availableTasks">
       <map>
-        <entry key="$PROJECT_DIR$">
-          <value>
-            <list>
-              <ExternalTaskPojo>
-                <option name="description" value="Initializes a new Gradle build. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="setupBuild" />
-              </ExternalTaskPojo>
-            </list>
-          </value>
-        </entry>
         <entry key="$PROJECT_DIR$/YoutubeExample">
           <value>
             <list>
@@ -851,11 +815,6 @@
                 <option name="name" value="prepareBiggBoss7TestDependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:appcompat-v7:18.0.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
-                <option name="name" value="prepareComAndroidSupportAppcompatV71800Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
                 <option name="name" value="prepareComedyNightsWithKapilDebugDependencies" />
               </ExternalTaskPojo>
@@ -1051,11 +1010,6 @@
         </entry>
       </map>
     </option>
-    <option name="modificationStamps">
-      <map>
-        <entry key="$PROJECT_DIR$" value="1378831391000" />
-      </map>
-    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
@@ -1084,8 +1038,8 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="1280" />
-    <option name="height" value="705" />
+    <option name="width" value="1920" />
+    <option name="height" value="972" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -1140,6 +1094,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1158,7 +1114,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="YoutubeExample" />
+              <option name="myItemId" value="YoutubeExampleProject" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1168,36 +1124,16 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="YoutubeExample" />
+              <option name="myItemId" value="YoutubeExampleProject" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="YoutubeExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="YoutubeExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="YoutubeExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="YoutubeExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1219,11 +1155,11 @@
     <property name="AndroidRunProguardForReleaseBuild" value="false" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="AVD2.2" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -1239,6 +1175,9 @@
       <ExternalSystemSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
         <option name="taskNames">
           <list>
             <option value="setupBuild" />
@@ -1280,6 +1219,9 @@
       <ExternalSystemSettings>
         <option name="externalProjectPath" />
         <option name="externalSystemIdString" value="GRADLE" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
         <option name="taskNames">
           <list />
         </option>
@@ -1452,7 +1394,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="705" extended-state="6" />
+    <frame x="0" y="22" width="1920" height="972" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1461,25 +1403,25 @@
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32745728" sideWeight="0.65140843" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286385" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32478634" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34835356" sideWeight="0.3655283" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2504052" sideWeight="0.19621342" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298122" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24878444" sideWeight="0.18119659" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24828677" sideWeight="0.72482437" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31690142" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2752137" sideWeight="0.6344717" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2758216" sideWeight="0.6344717" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.64818025" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298122" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.64818025" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24878444" sideWeight="0.54188037" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24866596" sideWeight="0.72417843" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32136753" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32478634" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286385" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1496,6 +1438,33 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="25" selection-start="827" selection-end="827" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="435">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="735" selection-end="735" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/res/layout/activity_youtube.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="777" selection-end="777" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="465">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/YoutubeExampleProject.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="2" selection-start="528" selection-end="528" vertical-scroll-proportion="0.31309298" vertical-offset="0" max-vertical-offset="527" />
@@ -1513,14 +1482,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="100" selection-end="100" vertical-scroll-proportion="0.027322404" vertical-offset="0" max-vertical-offset="549">
-          <folding />
-        </state>
+        <state line="1" column="0" selection-start="100" selection-end="100" vertical-scroll-proportion="0.027322404" vertical-offset="0" max-vertical-offset="549" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/local.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="44" selection-start="472" selection-end="472" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+        <state line="11" column="0" selection-start="477" selection-end="477" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="255">
           <folding />
         </state>
       </provider>
@@ -1546,27 +1513,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/Comedy Nights With Kapil/480x800_4.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/java/com/khushnish/youtubeexample/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="64" column="28" selection-start="2466" selection-end="2466" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="3270">
-          <folding>
-            <element signature="e#2658#2686#0" expanded="true" />
-            <element signature="e#4693#5953#0" expanded="true" />
-            <element signature="e#5152#5885#0" expanded="true" />
-            <element signature="e#5866#5867#0" expanded="true" />
-            <element signature="e#5942#5943#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/YoutubeExample/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="226" selection-end="226" vertical-scroll-proportion="0.0" vertical-offset="197" max-vertical-offset="1695">
           <folding />
         </state>
       </provider>
@@ -1576,16 +1525,9 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="32" selection-start="764" selection-end="764" vertical-scroll-proportion="-9.444445" vertical-offset="0" max-vertical-offset="525">
-          <folding>
-            <element signature="e#680#697#0" expanded="true" />
-          </folding>
+        <state line="18" column="0" selection-start="768" selection-end="768" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="525">
+          <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/Comedy Nights With Kapil/7 inch/800x1280_1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/res/layout/activity_youtube.xml">
@@ -1593,32 +1535,24 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="32" selection-start="806" selection-end="806" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="480">
-          <folding>
-            <element signature="e#722#739#0" expanded="true" />
-          </folding>
+        <state line="19" column="0" selection-start="810" selection-end="810" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="480">
+          <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/Comedy Nights With Kapil/10 inch/1280x800_1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/java/com/khushnish/youtubeexample/YoutubeActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="70" selection-start="1689" selection-end="1747" vertical-scroll-proportion="0.3409091" vertical-offset="330" max-vertical-offset="1785">
+        <state line="82" column="24" selection-start="3081" selection-end="3081" vertical-scroll-proportion="0.0" vertical-offset="630" max-vertical-offset="1725">
           <folding>
-            <element signature="e#1301#1341#0" expanded="true" />
-            <element signature="e#1712#1739#0" expanded="true" />
-            <element signature="e#2384#2749#0" expanded="true" />
-            <element signature="e#2738#2739#0" expanded="true" />
-            <element signature="e#2811#3000#0" expanded="true" />
-            <element signature="e#2989#2990#0" expanded="true" />
             <element signature="e#3081#3109#0" expanded="true" />
-            <element signature="e#3138#3179#0" expanded="true" />
-            <element signature="e#3878#3905#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YoutubeExample/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="224" selection-end="224" vertical-scroll-proportion="0.098471984" vertical-offset="182" max-vertical-offset="1695">
+          <folding />
         </state>
       </provider>
     </entry>

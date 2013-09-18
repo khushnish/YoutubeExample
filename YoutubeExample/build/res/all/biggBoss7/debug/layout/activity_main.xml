@@ -27,4 +27,4 @@
         android:smoothScrollbar="true"
         tools:listitem="@layout/row_youtube" />
 
-</RelativeLayout><!-- From: file:/Users/KhushNish/Git/YoutubeExample/YoutubeExample/src/main/res/layout/activity_main.xml -->
+</RelativeLayout><!-- From: file:/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/src/main/res/layout/activity_main.xml -->
