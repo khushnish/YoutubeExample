@@ -72,6 +72,10 @@ android {
             packageName "com.khushnish.bigboss7"
 //            signingConfig flavor2SigningVariable
         }
+
+        krrish3 {
+            packageName "com.khushnish.krrish3trailers"
+        }
     }
 
     sourceSets {
@@ -103,6 +107,11 @@ android {
         //  Bigg Boss 7
         biggBoss7 {
             res.srcDirs = ['src/main/biggBoss7/res']
+        }
+
+        //  Krrish 3
+        krrish3 {
+            res.srcDirs = ['src/main/krrish3/res']
         }
     }
 }

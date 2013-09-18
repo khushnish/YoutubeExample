@@ -19,4 +19,4 @@
         android:layout_gravity="center_vertical"
         android:layout_margin="5dp"
         android:textColor="@android:color/black" />
-</LinearLayout><!-- From: file:/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/src/main/res/layout/row_youtube.xml -->
+</LinearLayout><!-- From: file:/Users/KhushNish/Git/YoutubeExample/YoutubeExample/src/main/res/layout/row_youtube.xml -->
