@@ -44,6 +44,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -80,7 +81,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -93,7 +93,16 @@
       <file leaf-file-name="build.gradle" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/YoutubeExample/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="103" column="55" selection-start="3336" selection-end="3336" vertical-scroll-proportion="0.0" vertical-offset="1440" max-vertical-offset="1830">
+            <state line="70" column="8" selection-start="1933" selection-end="1933" vertical-scroll-proportion="0.0" vertical-offset="975" max-vertical-offset="1965">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/biggBoss7/res/values/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="12" selection-start="308" selection-end="308" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
               <folding />
             </state>
           </provider>
@@ -102,7 +111,7 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/java/com/khushnish/youtubeexample/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="28" selection-start="2466" selection-end="2466" vertical-scroll-proportion="0.0" vertical-offset="960" max-vertical-offset="3930">
+            <state line="128" column="91" selection-start="5548" selection-end="5548" vertical-scroll-proportion="0.0" vertical-offset="960" max-vertical-offset="3195">
               <folding />
             </state>
           </provider>
@@ -111,16 +120,7 @@
       <file leaf-file-name="YoutubeActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/java/com/khushnish/youtubeexample/YoutubeActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="24" selection-start="3081" selection-end="3081" vertical-scroll-proportion="0.0" vertical-offset="1230" max-vertical-offset="2055">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/res/values/strings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="25" selection-start="827" selection-end="827" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="435">
+            <state line="82" column="24" selection-start="3081" selection-end="3081" vertical-scroll-proportion="0.0" vertical-offset="1230" max-vertical-offset="1725">
               <folding />
             </state>
           </provider>
@@ -128,37 +128,28 @@
       </file>
       <file leaf-file-name="activity_main.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/res/layout/activity_main.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="46" selection-start="440" selection-end="440" vertical-scroll-proportion="0.3638814" vertical-offset="0" max-vertical-offset="510">
+            <state line="5" column="18" selection-start="296" selection-end="296" vertical-scroll-proportion="0.20107238" vertical-offset="0" max-vertical-offset="510">
               <folding>
                 <element signature="e#680#697#0" expanded="true" />
               </folding>
             </state>
           </provider>
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
         </entry>
       </file>
       <file leaf-file-name="activity_youtube.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/res/layout/activity_youtube.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="49" selection-start="482" selection-end="482" vertical-scroll-proportion="-2.074074" vertical-offset="94" max-vertical-offset="465">
-              <folding>
-                <element signature="e#722#739#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
           <provider editor-type-id="android-designer">
             <state />
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/krrish3/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="12" selection-start="305" selection-end="305" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
-              <folding />
+            <state line="17" column="33" selection-start="773" selection-end="773" vertical-scroll-proportion="-6.037037" vertical-offset="92" max-vertical-offset="465">
+              <folding>
+                <element signature="e#722#739#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -171,8 +162,8 @@
     </FindUsagesManager>
   </component>
   <component name="GenerateSignedApkSettings">
-    <option name="KEY_STORE_PATH" value="$PROJECT_DIR$/YoutubeExample/krrish3trailer.jks" />
-    <option name="KEY_ALIAS" value="Krrish3" />
+    <option name="KEY_STORE_PATH" value="$PROJECT_DIR$/YoutubeExample/biggboss7.jks" />
+    <option name="KEY_ALIAS" value="Bigg Boss 7" />
     <option name="REMEMBER_PASSWORDS" value="true" />
   </component>
   <component name="Git.Settings">
@@ -287,6 +278,26 @@
                 <option name="name" value="assembleDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Assembles all builds for flavor Dhoom3Trailer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="assembleDhoom3Trailer" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the Debug build for flavor Dhoom3Trailer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="assembleDhoom3TrailerDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the Release build for flavor Dhoom3Trailer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="assembleDhoom3TrailerRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the Test build for the Dhoom3TrailerDebug build" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="assembleDhoom3TrailerTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Assembles all builds for flavor DidSuperMoms" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
                 <option name="name" value="assembleDidSuperMoms" />
@@ -305,6 +316,26 @@
                 <option name="description" value="Assembles the Test build for the DidSuperMomsDebug build" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
                 <option name="name" value="assembleDidSuperMomsTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles all builds for flavor Krrish3" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="assembleKrrish3" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the Debug build for flavor Krrish3" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="assembleKrrish3Debug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the Release build for flavor Krrish3" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="assembleKrrish3Release" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the Test build for the Krrish3Debug build" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="assembleKrrish3Test" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles all Release builds" />
@@ -415,6 +446,42 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="compileDhoom3TrailerDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="compileDhoom3TrailerDebugAidl" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="compileDhoom3TrailerDebugRenderscript" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="compileDhoom3TrailerRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="compileDhoom3TrailerReleaseAidl" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="compileDhoom3TrailerReleaseRenderscript" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="compileDhoom3TrailerTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="compileDhoom3TrailerTestAidl" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="compileDhoom3TrailerTestRenderscript" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
                 <option name="name" value="compileDidSuperMomsDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -451,6 +518,42 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="compileKrrish3Debug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="compileKrrish3DebugAidl" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="compileKrrish3DebugRenderscript" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="compileKrrish3Release" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="compileKrrish3ReleaseAidl" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="compileKrrish3ReleaseRenderscript" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="compileKrrish3Test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="compileKrrish3TestAidl" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="compileKrrish3TestRenderscript" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
                 <option name="name" value="compileLint" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -474,9 +577,19 @@
                 <option name="name" value="connectedInstrumentTestComedyNightsWithKapilDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Installs and runs the tests for Build 'Dhoom3TrailerDebug' on connected devices." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="connectedInstrumentTestDhoom3TrailerDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Installs and runs the tests for Build 'DidSuperMomsDebug' on connected devices." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
                 <option name="name" value="connectedInstrumentTestDidSuperMomsDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Installs and runs the tests for Build 'Krrish3Debug' on connected devices." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="connectedInstrumentTestKrrish3Debug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Runs all device checks using Device Providers and Test Servers." />
@@ -514,6 +627,18 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="dexDhoom3TrailerDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="dexDhoom3TrailerRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="dexDhoom3TrailerTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
                 <option name="name" value="dexDidSuperMomsDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -523,6 +648,18 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
                 <option name="name" value="dexDidSuperMomsTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="dexKrrish3Debug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="dexKrrish3Release" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="dexKrrish3Test" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
@@ -574,6 +711,30 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="generateDhoom3TrailerDebugBuildConfig" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="generateDhoom3TrailerDebugSources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="generateDhoom3TrailerReleaseBuildConfig" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="generateDhoom3TrailerReleaseSources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="generateDhoom3TrailerTestBuildConfig" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="generateDhoom3TrailerTestSources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
                 <option name="name" value="generateDidSuperMomsDebugBuildConfig" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -597,6 +758,30 @@
                 <option name="name" value="generateDidSuperMomsTestSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="generateKrrish3DebugBuildConfig" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="generateKrrish3DebugSources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="generateKrrish3ReleaseBuildConfig" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="generateKrrish3ReleaseSources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="generateKrrish3TestBuildConfig" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="generateKrrish3TestSources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Installs the Debug build for flavor BiggBoss7" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
                 <option name="name" value="installBiggBoss7Debug" />
@@ -617,6 +802,16 @@
                 <option name="name" value="installComedyNightsWithKapilTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Installs the Debug build for flavor Dhoom3Trailer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="installDhoom3TrailerDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Installs the Test build for the Dhoom3TrailerDebug build" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="installDhoom3TrailerTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Installs the Debug build for flavor DidSuperMoms" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
                 <option name="name" value="installDidSuperMomsDebug" />
@@ -625,6 +820,16 @@
                 <option name="description" value="Installs the Test build for the DidSuperMomsDebug build" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
                 <option name="name" value="installDidSuperMomsTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Installs the Debug build for flavor Krrish3" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="installKrrish3Debug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Installs the Test build for the Krrish3Debug build" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="installKrrish3Test" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Runs lint on all variants." />
@@ -657,6 +862,18 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="lintDhoom3TrailerDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="lintDhoom3TrailerRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="lintDhoom3TrailerTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
                 <option name="name" value="lintDidSuperMomsDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -666,6 +883,18 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
                 <option name="name" value="lintDidSuperMomsTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="lintKrrish3Debug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="lintKrrish3Release" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="lintKrrish3Test" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
@@ -717,6 +946,30 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="mergeDhoom3TrailerDebugAssets" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="mergeDhoom3TrailerDebugResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="mergeDhoom3TrailerReleaseAssets" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="mergeDhoom3TrailerReleaseResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="mergeDhoom3TrailerTestAssets" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="mergeDhoom3TrailerTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
                 <option name="name" value="mergeDidSuperMomsDebugAssets" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -738,6 +991,30 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
                 <option name="name" value="mergeDidSuperMomsTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="mergeKrrish3DebugAssets" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="mergeKrrish3DebugResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="mergeKrrish3ReleaseAssets" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="mergeKrrish3ReleaseResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="mergeKrrish3TestAssets" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="mergeKrrish3TestResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
@@ -765,6 +1042,18 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="packageDhoom3TrailerDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="packageDhoom3TrailerRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="packageDhoom3TrailerTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
                 <option name="name" value="packageDidSuperMomsDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -774,6 +1063,18 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
                 <option name="name" value="packageDidSuperMomsTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="packageKrrish3Debug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="packageKrrish3Release" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="packageKrrish3Test" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
@@ -805,6 +1106,18 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="preDhoom3TrailerDebugBuild" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="preDhoom3TrailerReleaseBuild" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="preDhoom3TrailerTestBuild" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
                 <option name="name" value="preDidSuperMomsDebugBuild" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -814,6 +1127,18 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
                 <option name="name" value="preDidSuperMomsTestBuild" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="preKrrish3DebugBuild" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="preKrrish3ReleaseBuild" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="preKrrish3TestBuild" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
@@ -846,6 +1171,18 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="prepareDhoom3TrailerDebugDependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="prepareDhoom3TrailerReleaseDependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="prepareDhoom3TrailerTestDependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
                 <option name="name" value="prepareDidSuperMomsDebugDependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -855,6 +1192,18 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
                 <option name="name" value="prepareDidSuperMomsTestDependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="prepareKrrish3DebugDependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="prepareKrrish3ReleaseDependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="prepareKrrish3TestDependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
@@ -930,6 +1279,42 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="processDhoom3TrailerDebugJavaRes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="processDhoom3TrailerDebugManifest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="processDhoom3TrailerDebugResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="processDhoom3TrailerReleaseJavaRes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="processDhoom3TrailerReleaseManifest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="processDhoom3TrailerReleaseResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="processDhoom3TrailerTestJavaRes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="processDhoom3TrailerTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="processDhoom3TrailerTestTestManifest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
                 <option name="name" value="processDidSuperMomsDebugJavaRes" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -963,6 +1348,42 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
                 <option name="name" value="processDidSuperMomsTestTestManifest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="processKrrish3DebugJavaRes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="processKrrish3DebugManifest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="processKrrish3DebugResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="processKrrish3ReleaseJavaRes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="processKrrish3ReleaseManifest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="processKrrish3ReleaseResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="processKrrish3TestJavaRes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="processKrrish3TestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="processKrrish3TestTestManifest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays the signing info for each variant" />
@@ -1005,6 +1426,21 @@
                 <option name="name" value="uninstallComedyNightsWithKapilTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Uninstalls the Debug build for flavor Dhoom3Trailer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="uninstallDhoom3TrailerDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Uninstalls the Release build for flavor Dhoom3Trailer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="uninstallDhoom3TrailerRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Uninstalls the Test build for the Dhoom3TrailerDebug build" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="uninstallDhoom3TrailerTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Uninstalls the Debug build for flavor DidSuperMoms" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
                 <option name="name" value="uninstallDidSuperMomsDebug" />
@@ -1018,6 +1454,21 @@
                 <option name="description" value="Uninstalls the Test build for the DidSuperMomsDebug build" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
                 <option name="name" value="uninstallDidSuperMomsTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Uninstalls the Debug build for flavor Krrish3" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="uninstallKrrish3Debug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Uninstalls the Release build for flavor Krrish3" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="uninstallKrrish3Release" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Uninstalls the Test build for the Krrish3Debug build" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="uninstallKrrish3Test" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
@@ -1037,7 +1488,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/YoutubeExample/src/main/res/values/styles.xml" />
         <option value="$PROJECT_DIR$/YoutubeExample/src/main/bigBoss7/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/YoutubeExample/src/main/java/com/khushnish/youtubeexample/YoutubeAdapter.java" />
         <option value="$PROJECT_DIR$/YoutubeExample/src/main/res/menu/sortby.xml" />
@@ -1048,8 +1498,9 @@
         <option value="$PROJECT_DIR$/YoutubeExample/src/main/java/com/khushnish/youtubeexample/MainActivity.java" />
         <option value="$PROJECT_DIR$/YoutubeExample/src/main/java/com/khushnish/youtubeexample/YoutubeActivity.java" />
         <option value="$PROJECT_DIR$/local.properties" />
-        <option value="$PROJECT_DIR$/YoutubeExample/build.gradle" />
         <option value="$PROJECT_DIR$/YoutubeExample/src/main/krrish3/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/YoutubeExample/build.gradle" />
+        <option value="$PROJECT_DIR$/YoutubeExample/src/main/dhoom3Trailer/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/YoutubeExample/src/main/biggBoss7/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/YoutubeExample/src/main/res/layout/activity_youtube.xml" />
         <option value="$PROJECT_DIR$/YoutubeExample/src/main/res/layout/activity_main.xml" />
@@ -1117,6 +1568,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1175,9 +1627,170 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YoutubeExample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YoutubeExample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YoutubeExample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dhoom3Trailer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="values" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YoutubeExample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YoutubeExample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YoutubeExample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dhoom3Trailer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YoutubeExample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YoutubeExample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YoutubeExample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dhoom3Trailer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drawable-hdpi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YoutubeExample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YoutubeExample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YoutubeExample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="biggBoss7" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="values" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YoutubeExample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YoutubeExample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YoutubeExample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="biggBoss7" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -1187,12 +1800,12 @@
     <property name="OverrideImplement.combined" value="true" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="ExportedApkPath" value="$USER_HOME$/Desktop/Krrish 3/Krrish3_19_Sep_2013.apk" />
+    <property name="ExportedApkPath" value="$USER_HOME$/Desktop/Big Boss 7/Bigg Boss 7_19_Sep_2013.apk" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="vcs.Git" />
     <property name="ExportedModule" value="YoutubeExample-YoutubeExample" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Krrish 3/Scrren SHots" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Big Boss 7/Screen Shots" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="192.168.56.101:5555" />
     <property name="MemberChooser.copyJavadoc" value="false" />
@@ -1200,19 +1813,19 @@
     <property name="AndroidRunProguardForReleaseBuild" value="false" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="AVD2.2" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/YoutubeExample/src/main/dhoom3Trailer/res" />
       <recent name="$PROJECT_DIR$/YoutubeExample/src/main/krrish3/res" />
       <recent name="$PROJECT_DIR$/YoutubeExample/src/main/didSuperMoms/res" />
       <recent name="$PROJECT_DIR$/YoutubeExample/src/main/bigBoss7/res" />
       <recent name="$PROJECT_DIR$/YoutubeExample/libs" />
-      <recent name="$PROJECT_DIR$/YoutubeExample/src/main/bigboss7Flavor/res" />
     </key>
   </component>
   <component name="RunManager" selected="Android Application.YoutubeExample-YoutubeExample">
@@ -1220,6 +1833,9 @@
       <ExternalSystemSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
         <option name="taskNames">
           <list>
             <option value="setupBuild" />
@@ -1261,11 +1877,41 @@
       <ExternalSystemSettings>
         <option name="externalProjectPath" />
         <option name="externalSystemIdString" value="GRADLE" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
         <option name="taskNames">
           <list />
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
       <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -1433,7 +2079,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="705" extended-state="6" />
+    <frame x="0" y="22" width="1280" height="705" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1443,19 +2089,19 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286385" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34835356" sideWeight="0.3655283" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27209705" sideWeight="0.36525974" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2504052" sideWeight="0.19621342" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24797407" sideWeight="0.36221838" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298122" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31690142" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2717949" sideWeight="0.6344717" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24797407" sideWeight="0.24273504" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31542462" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26837608" sideWeight="0.6339286" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.64818025" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298122" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.64818025" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24837662" sideWeight="0.72820514" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32136753" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24837662" sideWeight="0.73162395" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3206239" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1477,118 +2123,110 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/res/menu/sortby.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="269" selection-end="269" vertical-scroll-proportion="0.3846154" vertical-offset="0" max-vertical-offset="450">
-          <folding />
-        </state>
+    <entry file="file://$USER_HOME$/Desktop/DID Super Moms/Screen Shots/device-2013-09-19-204243.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="25" selection-start="827" selection-end="827" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="435">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="16" selection-start="621" selection-end="621" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/java/com/khushnish/youtubeexample/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="28" selection-start="2466" selection-end="2466" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="3270">
+        <state line="20" column="25" selection-start="827" selection-end="827" vertical-scroll-proportion="0.65561223" vertical-offset="43" max-vertical-offset="435">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/java/com/khushnish/youtubeexample/YoutubeActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="24" selection-start="3081" selection-end="3081" vertical-scroll-proportion="0.0" vertical-offset="630" max-vertical-offset="1725">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="100" selection-end="100" vertical-scroll-proportion="0.03846154" vertical-offset="0" max-vertical-offset="390">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/local.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="21" selection-start="449" selection-end="449" vertical-scroll-proportion="0.3846154" vertical-offset="0" max-vertical-offset="390">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/biggBoss7/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="17" selection-start="107" selection-end="246" vertical-scroll-proportion="0.23076923" vertical-offset="0" max-vertical-offset="390">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/biggBoss7/res/drawable-hdpi/ic_launcher.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/YoutubeExample/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="55" selection-start="3336" selection-end="3336" vertical-scroll-proportion="0.0" vertical-offset="1440" max-vertical-offset="1830">
+        <state line="82" column="24" selection-start="3081" selection-end="3081" vertical-scroll-proportion="0.0" vertical-offset="1230" max-vertical-offset="2055">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/krrish3/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="12" selection-start="305" selection-end="305" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+        <state line="8" column="12" selection-start="305" selection-end="305" vertical-scroll-proportion="0.30612245" vertical-offset="0" max-vertical-offset="392">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/Krrish 3/Scrren SHots/480x800_1.png">
+    <entry file="file://$USER_HOME$/Desktop/Dhoom 3/Screen Shots/device-2013-09-19-210802.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/Krrish 3/Scrren SHots/480x800_2.png">
+    <entry file="file://$USER_HOME$/Desktop/Dhoom 3/Screen Shots/device-2013-09-19-210854.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/Krrish 3/Scrren SHots/480x800_3.png">
+    <entry file="file://$USER_HOME$/Desktop/Dhoom 3/Screen Shots/device-2013-09-19-210852.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/dhoom3Trailer/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="12" selection-start="304" selection-end="304" vertical-scroll-proportion="0.30612245" vertical-offset="0" max-vertical-offset="392">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YoutubeExample/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="8" selection-start="1933" selection-end="1933" vertical-scroll-proportion="0.0" vertical-offset="975" max-vertical-offset="1965">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/biggBoss7/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="12" selection-start="308" selection-end="308" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Big Boss 7/Screen Shots/device-2013-09-19-233233.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/res/layout/activity_youtube.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="49" selection-start="482" selection-end="482" vertical-scroll-proportion="-2.074074" vertical-offset="94" max-vertical-offset="465">
+        <state line="17" column="33" selection-start="773" selection-end="773" vertical-scroll-proportion="-6.037037" vertical-offset="92" max-vertical-offset="465">
           <folding>
             <element signature="e#722#739#0" expanded="true" />
           </folding>
         </state>
       </provider>
-      <provider editor-type-id="android-designer">
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Big Boss 7/Screen Shots/device-2013-09-19-233515.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Big Boss 7/Screen Shots/device-2013-09-19-233611.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Big Boss 7/Screen Shots/device-2013-09-19-235426.png">
+      <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="46" selection-start="440" selection-end="440" vertical-scroll-proportion="0.3638814" vertical-offset="0" max-vertical-offset="510">
+        <state line="5" column="18" selection-start="296" selection-end="296" vertical-scroll-proportion="0.20107238" vertical-offset="0" max-vertical-offset="510">
           <folding>
             <element signature="e#680#697#0" expanded="true" />
           </folding>
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
   </component>

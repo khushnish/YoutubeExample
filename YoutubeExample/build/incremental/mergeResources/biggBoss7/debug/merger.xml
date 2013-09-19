@@ -4493,11 +4493,11 @@ Browser
             <file
                 path="/Users/KhushNish/Git/YoutubeExample/YoutubeExample/src/main/biggBoss7/res/values/strings.xml"
                 qualifiers="" >
-                <string name="api_key" >AIzaSyA4XdqCFWJ7XBXPkhsx09YvteCUnhy9ZcQ
+                <string name="api_key" >AIzaSyACBjfNVpxCg0FUHHJWb4thfNZ1YSNeBOU
                 </string>
                 <string name="app_name" >Bigg Boss 7
                 </string>
-                <string name="ads_interstitial_key" >b65a11a1a9c4471c
+                <string name="ads_interstitial_key" >7c98b31c0fd54528
                 </string>
                 <string name="ads_key" >a1523743c173118
                 </string>

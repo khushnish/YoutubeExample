@@ -76,6 +76,10 @@ android {
         krrish3 {
             packageName "com.khushnish.krrish3trailers"
         }
+
+        dhoom3Trailer {
+            packageName "com.khushnish.dhoom3trailers"
+        }
     }
 
     sourceSets {
@@ -112,6 +116,11 @@ android {
         //  Krrish 3
         krrish3 {
             res.srcDirs = ['src/main/krrish3/res']
+        }
+
+        //  Dhoom 3
+        dhoom3Trailer {
+            res.srcDirs = ['src/main/dhoom3Trailer/res']
         }
     }
 }

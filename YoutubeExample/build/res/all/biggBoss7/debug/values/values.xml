@@ -517,9 +517,9 @@
     <!-- From: file:/Users/KhushNish/Git/YoutubeExample/YoutubeExample/src/main/res/values/strings.xml -->
     <string name="action_settings">Settings</string>
     <!-- From: file:/Users/KhushNish/Git/YoutubeExample/YoutubeExample/src/main/biggBoss7/res/values/strings.xml -->
-    <string name="ads_interstitial_key">b65a11a1a9c4471c</string>
+    <string name="ads_interstitial_key">7c98b31c0fd54528</string>
     <string name="ads_key">a1523743c173118</string>
-    <string name="api_key">AIzaSyA4XdqCFWJ7XBXPkhsx09YvteCUnhy9ZcQ</string>
+    <string name="api_key">AIzaSyACBjfNVpxCg0FUHHJWb4thfNZ1YSNeBOU</string>
     <string name="app_name">Bigg Boss 7</string>
     <!-- From: file:/Users/KhushNish/Git/YoutubeExample/YoutubeExample/src/main/res/values/strings.xml -->
     <string name="check_internet_connection">Please Check Internet Connection.</string>

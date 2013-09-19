@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Dhoom 3</string>
+    <string name="api_key">AIzaSyDNYY-iH12gUGvaQ2jkgrPVljWPPbtpWao</string>
+    <string name="ads_key">a1523b08321553d</string>
+    <string name="ads_interstitial_key">0f94c4132c614c90</string>
+
+</resources>

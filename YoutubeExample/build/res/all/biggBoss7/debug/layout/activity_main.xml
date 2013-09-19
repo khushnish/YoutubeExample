@@ -14,8 +14,7 @@
         android:layout_centerHorizontal="true"
         ads:adSize="SMART_BANNER"
         ads:adUnitId="@string/ads_key"
-        ads:loadAdOnCreate="true"
-        android:visibility="gone"/>
+        ads:loadAdOnCreate="true" />
 
     <ListView
         android:id="@+id/youtube_list"
