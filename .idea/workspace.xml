@@ -44,7 +44,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -81,6 +80,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -93,25 +93,25 @@
       <file leaf-file-name="build.gradle" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/YoutubeExample/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="8" selection-start="1933" selection-end="1933" vertical-scroll-proportion="0.0" vertical-offset="975" max-vertical-offset="1965">
+            <state line="129" column="44" selection-start="3924" selection-end="3924" vertical-scroll-proportion="0.0" vertical-offset="1644" max-vertical-offset="2100">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/biggBoss7/res/values/strings.xml">
+        <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/sanjivKapoorKeKitchenKhiladi/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="12" selection-start="308" selection-end="308" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+            <state line="8" column="12" selection-start="330" selection-end="330" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/java/com/khushnish/youtubeexample/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="128" column="91" selection-start="5548" selection-end="5548" vertical-scroll-proportion="0.0" vertical-offset="960" max-vertical-offset="3195">
+            <state line="128" column="91" selection-start="5548" selection-end="5548" vertical-scroll-proportion="-2.091988" vertical-offset="1920" max-vertical-offset="3195">
               <folding />
             </state>
           </provider>
@@ -120,22 +120,20 @@
       <file leaf-file-name="YoutubeActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/java/com/khushnish/youtubeexample/YoutubeActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="24" selection-start="3081" selection-end="3081" vertical-scroll-proportion="0.0" vertical-offset="1230" max-vertical-offset="1725">
+            <state line="91" column="32" selection-start="3366" selection-end="3366" vertical-scroll-proportion="0.0" vertical-offset="915" max-vertical-offset="1725">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_main.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="activity_main.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/res/layout/activity_main.xml">
           <provider editor-type-id="android-designer">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="18" selection-start="296" selection-end="296" vertical-scroll-proportion="0.20107238" vertical-offset="0" max-vertical-offset="510">
-              <folding>
-                <element signature="e#680#697#0" expanded="true" />
-              </folding>
+            <state line="16" column="33" selection-start="731" selection-end="731" vertical-scroll-proportion="-5.0" vertical-offset="105" max-vertical-offset="510">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -146,7 +144,7 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="33" selection-start="773" selection-end="773" vertical-scroll-proportion="-6.037037" vertical-offset="92" max-vertical-offset="465">
+            <state line="17" column="34" selection-start="774" selection-end="774" vertical-scroll-proportion="-6.5925927" vertical-offset="77" max-vertical-offset="465">
               <folding>
                 <element signature="e#722#739#0" expanded="true" />
               </folding>
@@ -341,6 +339,26 @@
                 <option name="description" value="Assembles all Release builds" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
                 <option name="name" value="assembleRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles all builds for flavor SanjivKapoorKeKitchenKhiladi" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="assembleSanjivKapoorKeKitchenKhiladi" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the Debug build for flavor SanjivKapoorKeKitchenKhiladi" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="assembleSanjivKapoorKeKitchenKhiladiDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the Release build for flavor SanjivKapoorKeKitchenKhiladi" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="assembleSanjivKapoorKeKitchenKhiladiRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the Test build for the SanjivKapoorKeKitchenKhiladiDebug build" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="assembleSanjivKapoorKeKitchenKhiladiTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles all the Test applications" />
@@ -557,6 +575,42 @@
                 <option name="name" value="compileLint" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="compileSanjivKapoorKeKitchenKhiladiDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="compileSanjivKapoorKeKitchenKhiladiDebugAidl" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="compileSanjivKapoorKeKitchenKhiladiDebugRenderscript" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="compileSanjivKapoorKeKitchenKhiladiRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="compileSanjivKapoorKeKitchenKhiladiReleaseAidl" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="compileSanjivKapoorKeKitchenKhiladiReleaseRenderscript" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="compileSanjivKapoorKeKitchenKhiladiTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="compileSanjivKapoorKeKitchenKhiladiTestAidl" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="compileSanjivKapoorKeKitchenKhiladiTestRenderscript" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Runs all device checks on currently connected devices." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
                 <option name="name" value="connectedCheck" />
@@ -590,6 +644,11 @@
                 <option name="description" value="Installs and runs the tests for Build 'Krrish3Debug' on connected devices." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
                 <option name="name" value="connectedInstrumentTestKrrish3Debug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Installs and runs the tests for Build 'SanjivKapoorKeKitchenKhiladiDebug' on connected devices." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="connectedInstrumentTestSanjivKapoorKeKitchenKhiladiDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Runs all device checks using Device Providers and Test Servers." />
@@ -660,6 +719,18 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
                 <option name="name" value="dexKrrish3Test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="dexSanjivKapoorKeKitchenKhiladiDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="dexSanjivKapoorKeKitchenKhiladiRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="dexSanjivKapoorKeKitchenKhiladiTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
@@ -782,6 +853,30 @@
                 <option name="name" value="generateKrrish3TestSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="generateSanjivKapoorKeKitchenKhiladiDebugBuildConfig" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="generateSanjivKapoorKeKitchenKhiladiDebugSources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="generateSanjivKapoorKeKitchenKhiladiReleaseBuildConfig" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="generateSanjivKapoorKeKitchenKhiladiReleaseSources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="generateSanjivKapoorKeKitchenKhiladiTestBuildConfig" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="generateSanjivKapoorKeKitchenKhiladiTestSources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Installs the Debug build for flavor BiggBoss7" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
                 <option name="name" value="installBiggBoss7Debug" />
@@ -830,6 +925,16 @@
                 <option name="description" value="Installs the Test build for the Krrish3Debug build" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
                 <option name="name" value="installKrrish3Test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Installs the Debug build for flavor SanjivKapoorKeKitchenKhiladi" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="installSanjivKapoorKeKitchenKhiladiDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Installs the Test build for the SanjivKapoorKeKitchenKhiladiDebug build" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="installSanjivKapoorKeKitchenKhiladiTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Runs lint on all variants." />
@@ -895,6 +1000,18 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
                 <option name="name" value="lintKrrish3Test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="lintSanjivKapoorKeKitchenKhiladiDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="lintSanjivKapoorKeKitchenKhiladiRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="lintSanjivKapoorKeKitchenKhiladiTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
@@ -1018,6 +1135,30 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="mergeSanjivKapoorKeKitchenKhiladiDebugAssets" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="mergeSanjivKapoorKeKitchenKhiladiDebugResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="mergeSanjivKapoorKeKitchenKhiladiReleaseAssets" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="mergeSanjivKapoorKeKitchenKhiladiReleaseResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="mergeSanjivKapoorKeKitchenKhiladiTestAssets" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="mergeSanjivKapoorKeKitchenKhiladiTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
                 <option name="name" value="packageBiggBoss7Debug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -1075,6 +1216,18 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
                 <option name="name" value="packageKrrish3Test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="packageSanjivKapoorKeKitchenKhiladiDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="packageSanjivKapoorKeKitchenKhiladiRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="packageSanjivKapoorKeKitchenKhiladiTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
@@ -1142,6 +1295,18 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="preSanjivKapoorKeKitchenKhiladiDebugBuild" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="preSanjivKapoorKeKitchenKhiladiReleaseBuild" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="preSanjivKapoorKeKitchenKhiladiTestBuild" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
                 <option name="name" value="prepareBiggBoss7DebugDependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -1204,6 +1369,18 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
                 <option name="name" value="prepareKrrish3TestDependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="prepareSanjivKapoorKeKitchenKhiladiDebugDependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="prepareSanjivKapoorKeKitchenKhiladiReleaseDependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="prepareSanjivKapoorKeKitchenKhiladiTestDependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
@@ -1386,6 +1563,42 @@
                 <option name="name" value="processKrrish3TestTestManifest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="processSanjivKapoorKeKitchenKhiladiDebugJavaRes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="processSanjivKapoorKeKitchenKhiladiDebugManifest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="processSanjivKapoorKeKitchenKhiladiDebugResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="processSanjivKapoorKeKitchenKhiladiReleaseJavaRes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="processSanjivKapoorKeKitchenKhiladiReleaseManifest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="processSanjivKapoorKeKitchenKhiladiReleaseResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="processSanjivKapoorKeKitchenKhiladiTestJavaRes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="processSanjivKapoorKeKitchenKhiladiTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="processSanjivKapoorKeKitchenKhiladiTestTestManifest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Displays the signing info for each variant" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
                 <option name="name" value="signingReport" />
@@ -1471,6 +1684,21 @@
                 <option name="name" value="uninstallKrrish3Test" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Uninstalls the Debug build for flavor SanjivKapoorKeKitchenKhiladi" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="uninstallSanjivKapoorKeKitchenKhiladiDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Uninstalls the Release build for flavor SanjivKapoorKeKitchenKhiladi" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="uninstallSanjivKapoorKeKitchenKhiladiRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Uninstalls the Test build for the SanjivKapoorKeKitchenKhiladiDebug build" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="uninstallSanjivKapoorKeKitchenKhiladiTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
                 <option name="name" value="validateDebugSigning" />
               </ExternalTaskPojo>
@@ -1488,22 +1716,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/YoutubeExample/src/main/bigBoss7/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/YoutubeExample/src/main/java/com/khushnish/youtubeexample/YoutubeAdapter.java" />
         <option value="$PROJECT_DIR$/YoutubeExample/src/main/res/menu/sortby.xml" />
         <option value="$PROJECT_DIR$/YoutubeExample/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/YoutubeExampleProject.iml" />
         <option value="$PROJECT_DIR$/YoutubeExample/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/YoutubeExample/src/main/java/com/khushnish/youtubeexample/MainActivity.java" />
-        <option value="$PROJECT_DIR$/YoutubeExample/src/main/java/com/khushnish/youtubeexample/YoutubeActivity.java" />
         <option value="$PROJECT_DIR$/local.properties" />
         <option value="$PROJECT_DIR$/YoutubeExample/src/main/krrish3/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/YoutubeExample/build.gradle" />
         <option value="$PROJECT_DIR$/YoutubeExample/src/main/dhoom3Trailer/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/YoutubeExample/src/main/biggBoss7/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/YoutubeExample/build.gradle" />
+        <option value="$PROJECT_DIR$/YoutubeExample/src/main/sanjivKapoorKeKitchenKhiladi/values/strings.xml" />
+        <option value="$PROJECT_DIR$/YoutubeExample/src/main/sanjivKapoorKeKitchenKhiladi/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/YoutubeExample/src/main/res/layout/activity_youtube.xml" />
         <option value="$PROJECT_DIR$/YoutubeExample/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/YoutubeExample/src/main/java/com/khushnish/youtubeexample/YoutubeActivity.java" />
       </list>
     </option>
   </component>
@@ -1513,7 +1741,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1280" />
-    <option name="height" value="705" />
+    <option name="height" value="701" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -1576,10 +1804,6 @@
               <option name="myItemId" value="YoutubeExample" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -1624,168 +1848,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="YoutubeExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="YoutubeExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="YoutubeExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dhoom3Trailer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="YoutubeExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="YoutubeExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="YoutubeExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dhoom3Trailer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="YoutubeExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="YoutubeExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="YoutubeExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dhoom3Trailer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drawable-hdpi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="YoutubeExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="YoutubeExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="YoutubeExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="biggBoss7" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="YoutubeExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="YoutubeExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="YoutubeExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="biggBoss7" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1805,7 +1867,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="vcs.Git" />
     <property name="ExportedModule" value="YoutubeExample-YoutubeExample" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Big Boss 7/Screen Shots" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Comedy Nights With Kapil/7 inch" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="192.168.56.101:5555" />
     <property name="MemberChooser.copyJavadoc" value="false" />
@@ -1813,19 +1875,22 @@
     <property name="AndroidRunProguardForReleaseBuild" value="false" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="AVD2.2" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/YoutubeExample/src/main/sanjivKapoorKeKitchenKhiladi/res" />
+      <recent name="$PROJECT_DIR$/YoutubeExample/src/main/sanjivKapoorKeKitchenKhiladi" />
       <recent name="$PROJECT_DIR$/YoutubeExample/src/main/dhoom3Trailer/res" />
       <recent name="$PROJECT_DIR$/YoutubeExample/src/main/krrish3/res" />
       <recent name="$PROJECT_DIR$/YoutubeExample/src/main/didSuperMoms/res" />
-      <recent name="$PROJECT_DIR$/YoutubeExample/src/main/bigBoss7/res" />
-      <recent name="$PROJECT_DIR$/YoutubeExample/libs" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/YoutubeExample/src/main/sanjivKapoorKeKitchenKhiladi/res" />
     </key>
   </component>
   <component name="RunManager" selected="Android Application.YoutubeExample-YoutubeExample">
@@ -1887,6 +1952,19 @@
       </ExternalSystemSettings>
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -1912,19 +1990,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2079,7 +2144,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="705" extended-state="0" />
+    <frame x="0" y="22" width="1280" height="701" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -2092,15 +2157,15 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27209705" sideWeight="0.36525974" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2504052" sideWeight="0.19621342" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298122" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24797407" sideWeight="0.24273504" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24797407" sideWeight="0.6282272" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31542462" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26837608" sideWeight="0.6339286" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3717728" sideWeight="0.6339286" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.64818025" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298122" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.64818025" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24837662" sideWeight="0.73162395" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24837662" sideWeight="0.6282272" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3206239" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -2123,69 +2188,62 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Desktop/DID Super Moms/Screen Shots/device-2013-09-19-204243.png">
+    <entry file="file://$USER_HOME$/Desktop/Big Boss 7/Screen Shots/10 inch/device-2013-09-26-213459.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="25" selection-start="827" selection-end="827" vertical-scroll-proportion="0.65561223" vertical-offset="43" max-vertical-offset="435">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/java/com/khushnish/youtubeexample/YoutubeActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="24" selection-start="3081" selection-end="3081" vertical-scroll-proportion="0.0" vertical-offset="1230" max-vertical-offset="2055">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/krrish3/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="12" selection-start="305" selection-end="305" vertical-scroll-proportion="0.30612245" vertical-offset="0" max-vertical-offset="392">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/Dhoom 3/Screen Shots/device-2013-09-19-210802.png">
+    <entry file="file://$USER_HOME$/Desktop/Big Boss 7/Screen Shots/10 inch/device-2013-09-26-213534.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/Dhoom 3/Screen Shots/device-2013-09-19-210854.png">
+    <entry file="file://$USER_HOME$/Desktop/Comedy Nights With Kapil/10 inch/device-2013-09-26-214313.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/Dhoom 3/Screen Shots/device-2013-09-19-210852.png">
+    <entry file="file://$USER_HOME$/Desktop/Comedy Nights With Kapil/10 inch/device-2013-09-26-214347.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/dhoom3Trailer/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="12" selection-start="304" selection-end="304" vertical-scroll-proportion="0.30612245" vertical-offset="0" max-vertical-offset="392">
-          <folding />
-        </state>
+    <entry file="file://$USER_HOME$/Desktop/Sanjeev Kapoor Ke Kitchen Khiladi/Screen Shots/10 inch/device-2013-09-26-214522.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/YoutubeExample/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="8" selection-start="1933" selection-end="1933" vertical-scroll-proportion="0.0" vertical-offset="975" max-vertical-offset="1965">
-          <folding />
-        </state>
+    <entry file="file://$USER_HOME$/Desktop/Sanjeev Kapoor Ke Kitchen Khiladi/Screen Shots/10 inch/device-2013-09-26-214614.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/biggBoss7/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="12" selection-start="308" selection-end="308" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
-          <folding />
-        </state>
+    <entry file="file://$USER_HOME$/Desktop/Sanjeev Kapoor Ke Kitchen Khiladi/Screen Shots/10 inch/device-2013-09-26-214641.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/Big Boss 7/Screen Shots/device-2013-09-19-233233.png">
+    <entry file="file://$USER_HOME$/Desktop/Sanjeev Kapoor Ke Kitchen Khiladi/Screen Shots/7 inch/device-2013-09-26-215334.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Sanjeev Kapoor Ke Kitchen Khiladi/Screen Shots/7 inch/device-2013-09-26-215403.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Sanjeev Kapoor Ke Kitchen Khiladi/Screen Shots/7 inch/device-2013-09-26-215422.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Comedy Nights With Kapil/7 inch/device-2013-09-26-215815.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Comedy Nights With Kapil/7 inch/device-2013-09-26-215840.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -2195,26 +2253,11 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="33" selection-start="773" selection-end="773" vertical-scroll-proportion="-6.037037" vertical-offset="92" max-vertical-offset="465">
+        <state line="17" column="34" selection-start="774" selection-end="774" vertical-scroll-proportion="-6.5925927" vertical-offset="77" max-vertical-offset="465">
           <folding>
             <element signature="e#722#739#0" expanded="true" />
           </folding>
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/Big Boss 7/Screen Shots/device-2013-09-19-233515.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/Big Boss 7/Screen Shots/device-2013-09-19-233611.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/Big Boss 7/Screen Shots/device-2013-09-19-235426.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/res/layout/activity_main.xml">
@@ -2222,10 +2265,22 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="18" selection-start="296" selection-end="296" vertical-scroll-proportion="0.20107238" vertical-offset="0" max-vertical-offset="510">
-          <folding>
-            <element signature="e#680#697#0" expanded="true" />
-          </folding>
+        <state line="16" column="33" selection-start="731" selection-end="731" vertical-scroll-proportion="-5.0" vertical-offset="105" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/java/com/khushnish/youtubeexample/YoutubeActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="91" column="32" selection-start="3366" selection-end="3366" vertical-scroll-proportion="0.0" vertical-offset="915" max-vertical-offset="1725">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/java/com/khushnish/youtubeexample/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="128" column="91" selection-start="5548" selection-end="5548" vertical-scroll-proportion="-2.091988" vertical-offset="1920" max-vertical-offset="3195">
+          <folding />
         </state>
       </provider>
     </entry>

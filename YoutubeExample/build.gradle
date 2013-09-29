@@ -80,6 +80,10 @@ android {
         dhoom3Trailer {
             packageName "com.khushnish.dhoom3trailers"
         }
+
+        sanjivKapoorKeKitchenKhiladi {
+            packageName "com.khushnish.sanjeevkapooerkekitchenkhiladi"
+        }
     }
 
     sourceSets {
@@ -121,6 +125,11 @@ android {
         //  Dhoom 3
         dhoom3Trailer {
             res.srcDirs = ['src/main/dhoom3Trailer/res']
+        }
+
+        //  Sanjiv Kapoor Ke Kitchen Khiladi
+        sanjivKapoorKeKitchenKhiladi {
+            res.srcDirs = ['src/main/sanjivKapoorKeKitchenKhiladi/res']
         }
     }
 }

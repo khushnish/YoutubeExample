@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sanjeev Kapoor Ke Kitchen Khiladi</string>
+    <string name="api_key">AIzaSyAX9cEJWmQ_uVKWEWtEDJK_iHOeIH3Nnyg</string>
+    <string name="ads_key">a1523c5c40b07b0</string>
+    <string name="ads_interstitial_key">d3bade0c60de4979</string>
+
+</resources>
