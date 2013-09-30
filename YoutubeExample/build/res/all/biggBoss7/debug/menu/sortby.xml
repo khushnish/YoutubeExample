@@ -22,4 +22,4 @@
         android:id="@+id/rating"
         android:showAsAction="withText"
         android:title="@string/rating" />
-</menu><!-- From: file:/Users/KhushNish/Git/YoutubeExample/YoutubeExample/src/main/res/menu/sortby.xml -->
+</menu><!-- From: file:/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/src/main/res/menu/sortby.xml -->

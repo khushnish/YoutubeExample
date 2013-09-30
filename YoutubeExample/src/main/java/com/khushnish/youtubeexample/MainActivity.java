@@ -12,6 +12,7 @@ import android.os.Bundle;
 import android.support.v4.app.FragmentManager;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
+import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AbsListView;
@@ -53,19 +54,20 @@ public class MainActivity extends ActionBarActivity {
     private List<SearchResult> searchResults = null;
     private YoutubeAdapter youTubeAdapter;
     private String sorting = "relevance";
+    private YoutubeTask youtubeTask;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        initializeComponents();
-
         final JsonFactory JSON_FACTORY = new JacksonFactory();
         youtube = new YouTube.Builder(HTTP_TRANSPORT, JSON_FACTORY, new HttpRequestInitializer() {
             public void initialize(HttpRequest request) throws IOException {
             }
         }).setApplicationName(getString(R.string.app_name)).build();
+
+        initializeComponents();
     }
 
     private void initializeComponents() {
@@ -95,7 +97,15 @@ public class MainActivity extends ActionBarActivity {
                 }
 
                 if (Utils.checkInternetConnection(MainActivity.this)) {
-                    new YoutubeTask().execute(sorting);
+                    Log.e("MainActivity", "From Navigation");
+                    if ( youtubeTask == null ) {
+                        youtubeTask = new YoutubeTask();
+                        youtubeTask.execute(sorting);
+                    } else if ( youtubeTask != null && youtubeTask.getStatus() ==
+                            YoutubeTask.Status.FINISHED ) {
+                        youtubeTask = new YoutubeTask();
+                        youtubeTask.execute(sorting);
+                    }
                 } else {
                     Utils.displayDialog(getString(R.string.app_name),
                             getString(R.string.check_internet_connection),
@@ -153,7 +163,12 @@ public class MainActivity extends ActionBarActivity {
                         firstVisibleItem + visibleItemCount >= totalItemCount;
 
                 if (loadMore) {
-                    new YoutubeTask().execute(sorting);
+                    if ( youtubeTask != null && youtubeTask.getStatus() ==
+                            YoutubeTask.Status.FINISHED ) {
+                        Log.e("MainActivity", "From Load More");
+                        youtubeTask = new YoutubeTask();
+                        youtubeTask.execute(sorting);
+                    }
                 }
             }
         });

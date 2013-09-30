@@ -17,13 +17,13 @@ public final class R {
         public static final int abc_slide_out_top=0x7f040005;
     }
     public static final class array {
-        /**  From: file:/Users/KhushNish/Git/YoutubeExample/YoutubeExample/src/main/res/values/strings.xml 
+        /**  From: file:/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/src/main/res/values/strings.xml 
          */
         public static final int pick_player=0x7f050000;
         public static final int sortby=0x7f050001;
     }
     public static final class attr {
-        /**  From: file:/Users/KhushNish/Git/YoutubeExample/YoutubeExample/build/exploded-bundles/ComAndroidSupportAppcompatV71800.aar/res/values/values.xml 
+        /**  From: file:/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/build/exploded-bundles/ComAndroidSupportAppcompatV71800.aar/res/values/values.xml 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -736,13 +736,13 @@ containing a value of this type.
         public static final int windowSplitActionBar=0x7f010052;
     }
     public static final class bool {
-        /**  From: file:/Users/KhushNish/Git/YoutubeExample/YoutubeExample/build/exploded-bundles/ComAndroidSupportAppcompatV71800.aar/res/values-land/values.xml 
- From: file:/Users/KhushNish/Git/YoutubeExample/YoutubeExample/build/exploded-bundles/ComAndroidSupportAppcompatV71800.aar/res/values-large/values.xml 
- From: file:/Users/KhushNish/Git/YoutubeExample/YoutubeExample/build/exploded-bundles/ComAndroidSupportAppcompatV71800.aar/res/values-w480dp/values.xml 
+        /**  From: file:/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/build/exploded-bundles/ComAndroidSupportAppcompatV71800.aar/res/values-land/values.xml 
+ From: file:/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/build/exploded-bundles/ComAndroidSupportAppcompatV71800.aar/res/values-large/values.xml 
+ From: file:/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/build/exploded-bundles/ComAndroidSupportAppcompatV71800.aar/res/values-w480dp/values.xml 
          */
         public static final int abc_action_bar_embed_tabs_pre_jb=0x7f060000;
-        /**  From: file:/Users/KhushNish/Git/YoutubeExample/YoutubeExample/build/exploded-bundles/ComAndroidSupportAppcompatV71800.aar/res/values-xlarge/values.xml 
- From: file:/Users/KhushNish/Git/YoutubeExample/YoutubeExample/build/exploded-bundles/ComAndroidSupportAppcompatV71800.aar/res/values-w720dp/values.xml 
+        /**  From: file:/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/build/exploded-bundles/ComAndroidSupportAppcompatV71800.aar/res/values-xlarge/values.xml 
+ From: file:/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/build/exploded-bundles/ComAndroidSupportAppcompatV71800.aar/res/values-w720dp/values.xml 
          */
         public static final int abc_action_bar_expanded_action_views_exclusive=0x7f060001;
         public static final int abc_config_actionMenuItemAllCaps=0x7f060002;
@@ -757,8 +757,8 @@ containing a value of this type.
         public static final int abc_search_url_text_selected=0x7f070002;
     }
     public static final class dimen {
-        /**  From: file:/Users/KhushNish/Git/YoutubeExample/YoutubeExample/build/exploded-bundles/ComAndroidSupportAppcompatV71800.aar/res/values-w600dp/values.xml 
- From: file:/Users/KhushNish/Git/YoutubeExample/YoutubeExample/build/exploded-bundles/ComAndroidSupportAppcompatV71800.aar/res/values-sw600dp/values.xml 
+        /**  From: file:/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/build/exploded-bundles/ComAndroidSupportAppcompatV71800.aar/res/values-w600dp/values.xml 
+ From: file:/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/build/exploded-bundles/ComAndroidSupportAppcompatV71800.aar/res/values-sw600dp/values.xml 
          */
         public static final int abc_action_bar_default_height=0x7f090000;
         public static final int abc_action_bar_icon_vertical_padding=0x7f090001;
@@ -776,8 +776,8 @@ containing a value of this type.
         public static final int abc_panel_menu_list_width=0x7f09000d;
         public static final int abc_search_view_preferred_width=0x7f09000e;
         public static final int abc_search_view_text_min_width=0x7f09000f;
-        /**  From: file:/Users/KhushNish/Git/YoutubeExample/YoutubeExample/src/main/res/values/dimens.xml 
- From: file:/Users/KhushNish/Git/YoutubeExample/YoutubeExample/src/main/res/values-sw720dp-land/dimens.xml 
+        /**  From: file:/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/src/main/res/values/dimens.xml 
+ From: file:/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/src/main/res/values-sw720dp-land/dimens.xml 
          */
         public static final int activity_horizontal_margin=0x7f090010;
         public static final int activity_vertical_margin=0x7f090011;
@@ -874,7 +874,7 @@ containing a value of this type.
     }
     public static final class id {
         public static final int action_bar=0x7f08001a;
-        /**  From: file:/Users/KhushNish/Git/YoutubeExample/YoutubeExample/build/exploded-bundles/ComAndroidSupportAppcompatV71800.aar/res/values/values.xml 
+        /**  From: file:/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/build/exploded-bundles/ComAndroidSupportAppcompatV71800.aar/res/values/values.xml 
          */
         public static final int action_bar_activity_content=0x7f080014;
         public static final int action_bar_container=0x7f080019;
@@ -956,8 +956,8 @@ containing a value of this type.
         public static final int youtube_view=0x7f080047;
     }
     public static final class integer {
-        /**  From: file:/Users/KhushNish/Git/YoutubeExample/YoutubeExample/build/exploded-bundles/ComAndroidSupportAppcompatV71800.aar/res/values-w360dp/values.xml 
- From: file:/Users/KhushNish/Git/YoutubeExample/YoutubeExample/build/exploded-bundles/ComAndroidSupportAppcompatV71800.aar/res/values-w500dp/values.xml 
+        /**  From: file:/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/build/exploded-bundles/ComAndroidSupportAppcompatV71800.aar/res/values-w360dp/values.xml 
+ From: file:/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/build/exploded-bundles/ComAndroidSupportAppcompatV71800.aar/res/values-w500dp/values.xml 
          */
         public static final int abc_max_action_buttons=0x7f0a0000;
     }
@@ -1010,16 +1010,16 @@ containing a value of this type.
         public static final int abc_searchview_description_voice=0x7f0b000a;
         public static final int abc_shareactionprovider_share_with=0x7f0b000b;
         public static final int abc_shareactionprovider_share_with_application=0x7f0b000c;
-        /**  From: file:/Users/KhushNish/Git/YoutubeExample/YoutubeExample/src/main/res/values/strings.xml 
+        /**  From: file:/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/src/main/res/values/strings.xml 
          */
         public static final int action_settings=0x7f0b000d;
-        /**  From: file:/Users/KhushNish/Git/YoutubeExample/YoutubeExample/src/main/biggBoss7/res/values/strings.xml 
+        /**  From: file:/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/src/main/biggBoss7/res/values/strings.xml 
          */
         public static final int ads_interstitial_key=0x7f0b000e;
         public static final int ads_key=0x7f0b000f;
         public static final int api_key=0x7f0b0010;
         public static final int app_name=0x7f0b0011;
-        /**  From: file:/Users/KhushNish/Git/YoutubeExample/YoutubeExample/src/main/res/values/strings.xml 
+        /**  From: file:/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/src/main/res/values/strings.xml 
          */
         public static final int check_internet_connection=0x7f0b0012;
         public static final int rating=0x7f0b0013;
@@ -1031,26 +1031,26 @@ containing a value of this type.
         public static final int view_count=0x7f0b0019;
     }
     public static final class style {
-        /**  From: file:/Users/KhushNish/Git/YoutubeExample/YoutubeExample/src/main/res/values/styles.xml 
+        /**  From: file:/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/src/main/res/values/styles.xml 
 
             Theme customizations available in newer API levels can go in
             res/values-vXX/styles.xml, while customizations related to
             backward-compatibility can go here.
         
- From: file:/Users/KhushNish/Git/YoutubeExample/YoutubeExample/src/main/res/values-v11/styles.xml 
+ From: file:/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/src/main/res/values-v11/styles.xml 
  API 11 theme customizations can go here. 
- From: file:/Users/KhushNish/Git/YoutubeExample/YoutubeExample/src/main/res/values-v14/styles.xml 
+ From: file:/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/src/main/res/values-v14/styles.xml 
  API 14 theme customizations can go here. 
          */
         public static final int AppBaseTheme=0x7f0c0000;
         /**  All customizations that are NOT specific to a particular API-level can go here. 
          */
         public static final int AppTheme=0x7f0c0001;
-        /**  From: file:/Users/KhushNish/Git/YoutubeExample/YoutubeExample/build/exploded-bundles/ComAndroidSupportAppcompatV71800.aar/res/values/values.xml 
+        /**  From: file:/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/build/exploded-bundles/ComAndroidSupportAppcompatV71800.aar/res/values/values.xml 
          */
         public static final int TextAppearance_AppCompat_Base_CompactMenu_Dialog=0x7f0c0002;
         public static final int TextAppearance_AppCompat_Base_SearchResult=0x7f0c0003;
-        /**  From: file:/Users/KhushNish/Git/YoutubeExample/YoutubeExample/build/exploded-bundles/ComAndroidSupportAppcompatV71800.aar/res/values-v14/values.xml 
+        /**  From: file:/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/build/exploded-bundles/ComAndroidSupportAppcompatV71800.aar/res/values-v14/values.xml 
          */
         public static final int TextAppearance_AppCompat_Base_SearchResult_Subtitle=0x7f0c0004;
         public static final int TextAppearance_AppCompat_Base_SearchResult_Title=0x7f0c0005;
@@ -1098,7 +1098,7 @@ containing a value of this type.
         public static final int Theme_AppCompat_CompactMenu_Dialog=0x7f0c002f;
         public static final int Theme_AppCompat_Light=0x7f0c0030;
         public static final int Theme_AppCompat_Light_DarkActionBar=0x7f0c0031;
-        /**  From: file:/Users/KhushNish/Git/YoutubeExample/YoutubeExample/build/exploded-bundles/ComAndroidSupportAppcompatV71800.aar/res/values-v11/values.xml 
+        /**  From: file:/Users/indianic/AndroidStudioProjects/YoutubeExampleProject/YoutubeExample/build/exploded-bundles/ComAndroidSupportAppcompatV71800.aar/res/values-v11/values.xml 
          */
         public static final int Theme_Base=0x7f0c0032;
         public static final int Theme_Base_AppCompat=0x7f0c0033;
