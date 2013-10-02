@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DID Dance Ka Tashan</string>
+    <string name="search_query">DID Dance Ka Tashan</string>
+    <string name="api_key">AIzaSyAeoY_xg9YoYOdrVj86IGee4qd8Mo9KaXM</string>
+    <string name="ads_key">a1524ae2ee68da7</string>
+    <string name="ads_interstitial_key">6f690ee2c01b4de7</string>
+
+</resources>

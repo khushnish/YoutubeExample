@@ -84,6 +84,10 @@ android {
         sanjivKapoorKeKitchenKhiladi {
             packageName "com.khushnish.sanjeevkapooerkekitchenkhiladi"
         }
+
+        didDanceKaTashan {
+            packageName "com.khushnish.diddancekatashan"
+        }
     }
 
     sourceSets {
@@ -130,6 +134,10 @@ android {
         //  Sanjiv Kapoor Ke Kitchen Khiladi
         sanjivKapoorKeKitchenKhiladi {
             res.srcDirs = ['src/main/sanjivKapoorKeKitchenKhiladi/res']
+        }
+
+        didDanceKaTashan {
+            res.srcDirs = ['src/main/didDanceKaTashan/res']
         }
     }
 }

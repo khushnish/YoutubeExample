@@ -3,15 +3,15 @@
   <component name="FacetManager">
     <facet type="android" name="Android">
       <configuration>
-        <option name="SELECTED_BUILD_VARIANT" value="SanjivKapoorKeKitchenKhiladiDebug" />
-        <option name="ASSEMBLE_TASK_NAME" value="assembleSanjivKapoorKeKitchenKhiladiDebug" />
-        <option name="COMPILE_JAVA_TASK_NAME" value="compileSanjivKapoorKeKitchenKhiladiDebug" />
-        <option name="ASSEMBLE_TEST_TASK_NAME" value="assembleSanjivKapoorKeKitchenKhiladiTest" />
-        <option name="SOURCE_GEN_TASK_NAME" value="generateSanjivKapoorKeKitchenKhiladiDebugSources" />
+        <option name="SELECTED_BUILD_VARIANT" value="DidDanceKaTashanDebug" />
+        <option name="ASSEMBLE_TASK_NAME" value="assembleDidDanceKaTashanDebug" />
+        <option name="COMPILE_JAVA_TASK_NAME" value="compileDidDanceKaTashanDebug" />
+        <option name="ASSEMBLE_TEST_TASK_NAME" value="assembleDidDanceKaTashanTest" />
+        <option name="SOURCE_GEN_TASK_NAME" value="generateDidDanceKaTashanDebugSources" />
         <option name="ALLOW_USER_CONFIGURATION" value="false" />
         <option name="MANIFEST_FILE_RELATIVE_PATH" value="/src/main/AndroidManifest.xml" />
         <option name="RES_FOLDER_RELATIVE_PATH" value="/src/main/res" />
-        <option name="RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/src/main/res;file://$MODULE_DIR$/src/main/sanjivKapoorKeKitchenKhiladi/res" />
+        <option name="RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/src/main/res;file://$MODULE_DIR$/src/main/didDanceKaTashan/res" />
         <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/src/main/assets" />
       </configuration>
     </facet>
@@ -22,33 +22,33 @@
     </facet>
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="false">
-    <output url="file://$MODULE_DIR$/build/classes/sanjivKapoorKeKitchenKhiladi/debug" />
+    <output url="file://$MODULE_DIR$/build/classes/didDanceKaTashan/debug" />
     <exclude-output />
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/build/source/r/sanjivKapoorKeKitchenKhiladi/debug" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/build/source/aidl/sanjivKapoorKeKitchenKhiladi/debug" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/build/source/rs/sanjivKapoorKeKitchenKhiladi/debug" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/build/source/buildConfig/sanjivKapoorKeKitchenKhiladi/debug" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/build/res/rs/sanjivKapoorKeKitchenKhiladi/debug" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/build/source/r/sanjivKapoorKeKitchenKhiladi/test" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/source/aidl/sanjivKapoorKeKitchenKhiladi/test" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/source/rs/sanjivKapoorKeKitchenKhiladi/test" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/source/buildConfig/sanjivKapoorKeKitchenKhiladi/test" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/res/rs/sanjivKapoorKeKitchenKhiladi/test" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/sanjivKapoorKeKitchenKhiladi/aidl" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/sanjivKapoorKeKitchenKhiladi/assets" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/sanjivKapoorKeKitchenKhiladi/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/sanjivKapoorKeKitchenKhiladi/jni" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/sanjivKapoorKeKitchenKhiladi/rs" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/main/sanjivKapoorKeKitchenKhiladi/res" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/sanjivKapoorKeKitchenKhiladi/resources" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/instrumentTestSanjivKapoorKeKitchenKhiladi/aidl" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/instrumentTestSanjivKapoorKeKitchenKhiladi/assets" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/instrumentTestSanjivKapoorKeKitchenKhiladi/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/instrumentTestSanjivKapoorKeKitchenKhiladi/jni" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/instrumentTestSanjivKapoorKeKitchenKhiladi/rs" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/instrumentTestSanjivKapoorKeKitchenKhiladi/res" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/instrumentTestSanjivKapoorKeKitchenKhiladi/resources" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/source/r/didDanceKaTashan/debug" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/build/source/aidl/didDanceKaTashan/debug" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/build/source/rs/didDanceKaTashan/debug" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/build/source/buildConfig/didDanceKaTashan/debug" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/build/res/rs/didDanceKaTashan/debug" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/build/source/r/didDanceKaTashan/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/source/aidl/didDanceKaTashan/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/source/rs/didDanceKaTashan/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/source/buildConfig/didDanceKaTashan/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/res/rs/didDanceKaTashan/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/didDanceKaTashan/aidl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/didDanceKaTashan/assets" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/didDanceKaTashan/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/didDanceKaTashan/jni" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/didDanceKaTashan/rs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/didDanceKaTashan/res" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/didDanceKaTashan/resources" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/instrumentTestDidDanceKaTashan/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/instrumentTestDidDanceKaTashan/assets" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/instrumentTestDidDanceKaTashan/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/instrumentTestDidDanceKaTashan/jni" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/instrumentTestDidDanceKaTashan/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/instrumentTestDidDanceKaTashan/res" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/instrumentTestDidDanceKaTashan/resources" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/debug/aidl" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/debug/assets" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/debug/java" isTestSource="false" />

@@ -1,7 +1,0 @@
-# incremental data. DO NOT EDIT.
-# format is <lastModified> <length> <SHA-1> <path>
-# Encoding is UTF-8
-1380213753000 4347 b6f623cd8cc12f284872e935b5928293b78b89c5 /Users/KhushNish/Git/YoutubeExample/YoutubeExample/src/main/java/com/khushnish/youtubeexample/YoutubeActivity.java
-1379431159000 2655 c6c9bf0df88f6048cd89282701a014e8e64e4f91 /Users/KhushNish/Git/YoutubeExample/YoutubeExample/src/main/java/com/khushnish/youtubeexample/YoutubeAdapter.java
-1379081102000 2680 b5d52e648e8dd918fb788afa3b9c4ca9b2c24382 /Users/KhushNish/Git/YoutubeExample/YoutubeExample/src/main/java/com/khushnish/youtubeexample/Utils.java
-1380559412000 10982 f0ad3f66c4106d935c4b5ae81c4e868b4b2a6454 /Users/KhushNish/Git/YoutubeExample/YoutubeExample/src/main/java/com/khushnish/youtubeexample/MainActivity.java
