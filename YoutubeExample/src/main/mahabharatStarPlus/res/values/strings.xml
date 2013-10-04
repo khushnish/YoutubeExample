@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Mahabharat</string>
+    <string name="search_query">Mahabharat</string>
+    <string name="api_key">AIzaSyCPcN2701ZwbAMdDDi0YMJ-1CxLHuNKD90</string>
+    <string name="ads_key">a1524c811e3b859</string>
+    <string name="ads_interstitial_key">7590194f42d74787</string>
+
+</resources>

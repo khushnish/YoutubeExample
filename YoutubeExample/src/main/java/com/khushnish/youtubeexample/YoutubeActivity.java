@@ -97,7 +97,7 @@ public class YoutubeActivity extends YouTubeBaseActivity implements
     public void onConfigurationChanged(Configuration newConfig) {
         super.onConfigurationChanged(newConfig);
 
-        final AdView adView = (AdView)findViewById(R.id.activity_youtube_adView);
+        final AdView adView = (AdView) findViewById(R.id.activity_youtube_adView);
         final RelativeLayout parent = (RelativeLayout) findViewById(R.id.activity_youtube_container);
         final ViewGroup.LayoutParams params = adView.getLayoutParams();
 

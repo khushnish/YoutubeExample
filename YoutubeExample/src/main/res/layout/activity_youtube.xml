@@ -15,12 +15,12 @@
         android:layout_centerHorizontal="true"
         ads:adSize="SMART_BANNER"
         ads:adUnitId="@string/ads_key"
-        ads:loadAdOnCreate="true" />
+        ads:loadAdOnCreate="true"
+        android:visibility="visible"/>
 
     <com.google.android.youtube.player.YouTubePlayerView
         android:id="@+id/youtube_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@id/activity_youtube_adView" />
-
 </RelativeLayout>

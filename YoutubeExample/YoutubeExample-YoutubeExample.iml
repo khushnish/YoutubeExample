@@ -3,15 +3,15 @@
   <component name="FacetManager">
     <facet type="android" name="Android">
       <configuration>
-        <option name="SELECTED_BUILD_VARIANT" value="DidDanceKaTashanDebug" />
-        <option name="ASSEMBLE_TASK_NAME" value="assembleDidDanceKaTashanDebug" />
-        <option name="COMPILE_JAVA_TASK_NAME" value="compileDidDanceKaTashanDebug" />
-        <option name="ASSEMBLE_TEST_TASK_NAME" value="assembleDidDanceKaTashanTest" />
-        <option name="SOURCE_GEN_TASK_NAME" value="generateDidDanceKaTashanDebugSources" />
+        <option name="SELECTED_BUILD_VARIANT" value="MahabharatStarPlusDebug" />
+        <option name="ASSEMBLE_TASK_NAME" value="assembleMahabharatStarPlusDebug" />
+        <option name="COMPILE_JAVA_TASK_NAME" value="compileMahabharatStarPlusDebug" />
+        <option name="ASSEMBLE_TEST_TASK_NAME" value="assembleMahabharatStarPlusTest" />
+        <option name="SOURCE_GEN_TASK_NAME" value="generateMahabharatStarPlusDebugSources" />
         <option name="ALLOW_USER_CONFIGURATION" value="false" />
         <option name="MANIFEST_FILE_RELATIVE_PATH" value="/src/main/AndroidManifest.xml" />
         <option name="RES_FOLDER_RELATIVE_PATH" value="/src/main/res" />
-        <option name="RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/src/main/res;file://$MODULE_DIR$/src/main/didDanceKaTashan/res" />
+        <option name="RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/src/main/res;file://$MODULE_DIR$/src/main/mahabharatStarPlus/res" />
         <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/src/main/assets" />
       </configuration>
     </facet>
@@ -22,33 +22,9 @@
     </facet>
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="false">
-    <output url="file://$MODULE_DIR$/build/classes/didDanceKaTashan/debug" />
+    <output url="file://$MODULE_DIR$/build/classes/mahabharatStarPlus/debug" />
     <exclude-output />
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/build/source/r/didDanceKaTashan/debug" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/build/source/aidl/didDanceKaTashan/debug" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/build/source/rs/didDanceKaTashan/debug" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/build/source/buildConfig/didDanceKaTashan/debug" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/build/res/rs/didDanceKaTashan/debug" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/build/source/r/didDanceKaTashan/test" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/source/aidl/didDanceKaTashan/test" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/source/rs/didDanceKaTashan/test" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/source/buildConfig/didDanceKaTashan/test" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/res/rs/didDanceKaTashan/test" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/didDanceKaTashan/aidl" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/didDanceKaTashan/assets" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/didDanceKaTashan/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/didDanceKaTashan/jni" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/didDanceKaTashan/rs" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/main/didDanceKaTashan/res" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/didDanceKaTashan/resources" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/instrumentTestDidDanceKaTashan/aidl" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/instrumentTestDidDanceKaTashan/assets" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/instrumentTestDidDanceKaTashan/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/instrumentTestDidDanceKaTashan/jni" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/instrumentTestDidDanceKaTashan/rs" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/instrumentTestDidDanceKaTashan/res" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/instrumentTestDidDanceKaTashan/resources" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/debug/aidl" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/debug/assets" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/debug/java" isTestSource="false" />
@@ -67,6 +43,32 @@
       <sourceFolder url="file://$MODULE_DIR$/src/instrumentTest/rs" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/instrumentTest/res" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/instrumentTest/resources" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/biggBoss7/rs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/build/source/buildConfig/biggBoss7/debug" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/build/source/r/biggBoss7/debug" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/biggBoss7/assets" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/biggBoss7/res" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/biggBoss7/jni" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/aidl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/build/source/rs/biggBoss7/debug" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/biggBoss7/resources" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/biggBoss7/aidl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/build/res/rs/biggBoss7/debug" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/rs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/biggBoss7/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/build/source/aidl/biggBoss7/debug" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/instrumentTestBiggBoss7/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/instrumentTestBiggBoss7/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/instrumentTestBiggBoss7/assets" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/instrumentTestBiggBoss7/res" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/res/rs/biggBoss7/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/source/rs/biggBoss7/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/source/aidl/biggBoss7/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/source/buildConfig/biggBoss7/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/instrumentTestBiggBoss7/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/instrumentTestBiggBoss7/jni" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/instrumentTestBiggBoss7/resources" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/source/r/biggBoss7/test" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/build/apk" />
       <excludeFolder url="file://$MODULE_DIR$/build/assets" />
       <excludeFolder url="file://$MODULE_DIR$/build/bundles" />

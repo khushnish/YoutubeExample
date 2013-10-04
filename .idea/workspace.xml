@@ -93,7 +93,7 @@
       <file leaf-file-name="build.gradle" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/YoutubeExample/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="9" selection-start="1601" selection-end="1601" vertical-scroll-proportion="0.25" vertical-offset="705" max-vertical-offset="2220">
+            <state line="102" column="11" selection-start="2750" selection-end="2797" vertical-scroll-proportion="0.89905363" vertical-offset="1245" max-vertical-offset="2370">
               <folding />
             </state>
           </provider>
@@ -111,7 +111,7 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/java/com/khushnish/youtubeexample/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="68" selection-start="2725" selection-end="2725" vertical-scroll-proportion="0.0" vertical-offset="1005" max-vertical-offset="4170">
+            <state line="263" column="0" selection-start="10755" selection-end="10755" vertical-scroll-proportion="0.0" vertical-offset="1936" max-vertical-offset="3405">
               <folding />
             </state>
           </provider>
@@ -120,42 +120,39 @@
       <file leaf-file-name="YoutubeActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/java/com/khushnish/youtubeexample/YoutubeActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="5" selection-start="2066" selection-end="2066" vertical-scroll-proportion="0.0" vertical-offset="900" max-vertical-offset="2055">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/biggBoss7/res/values/strings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="66" selection-start="181" selection-end="220" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="225">
-              <folding />
+            <state line="97" column="48" selection-start="3512" selection-end="3512" vertical-scroll-proportion="0.0" vertical-offset="1045" max-vertical-offset="1725">
+              <folding>
+                <element signature="e#1301#1341#0" expanded="true" />
+                <element signature="e#1712#1739#0" expanded="true" />
+                <element signature="e#3081#3109#0" expanded="true" />
+                <element signature="e#3138#3179#0" expanded="true" />
+                <element signature="e#3879#3906#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="activity_youtube.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/res/layout/activity_youtube.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="44" selection-start="571" selection-end="571" vertical-scroll-proportion="0.0" vertical-offset="47" max-vertical-offset="465">
-              <folding />
-            </state>
-          </provider>
           <provider editor-type-id="android-designer">
             <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="0" selection-start="813" selection-end="813" vertical-scroll-proportion="-10.555555" vertical-offset="0" max-vertical-offset="465">
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="activity_main.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/res/layout/activity_main.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="33" selection-start="731" selection-end="731" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="510">
-              <folding />
-            </state>
-          </provider>
           <provider editor-type-id="android-designer">
             <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="26" selection-start="393" selection-end="393" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="525">
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -167,8 +164,8 @@
     </FindUsagesManager>
   </component>
   <component name="GenerateSignedApkSettings">
-    <option name="KEY_STORE_PATH" value="$PROJECT_DIR$/YoutubeExample/sanjeevkapoorkekitchenkhiladi.jks" />
-    <option name="KEY_ALIAS" value="sanjeev kapoor ke kitchen khiladi" />
+    <option name="KEY_STORE_PATH" value="$PROJECT_DIR$/YoutubeExample/diddancekatashan.jks" />
+    <option name="KEY_ALIAS" value="DID Dance Ka Tashan" />
     <option name="REMEMBER_PASSWORDS" value="true" />
   </component>
   <component name="Git.Settings">
@@ -184,9 +181,29 @@
     <option name="tasksExpandState">
       <map>
         <entry key="" value="true" />
+        <entry key="YoutubeExample-YoutubeExample/YoutubeExample/" value="true" />
+        <entry key="YoutubeExample/" value="true" />
         <entry key="YoutubeExample/YoutubeExampleProject/" value="true" />
         <entry key="YoutubeExampleProject/" value="true" />
       </map>
+    </option>
+    <option name="recentTasks">
+      <list>
+        <ExternalTaskExecutionInfo>
+          <option name="executorId" value="Run" />
+          <option name="settings">
+            <ExternalSystemSettings>
+              <option name="externalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+              <option name="externalSystemIdString" value="GRADLE" />
+              <option name="taskNames">
+                <list>
+                  <option value="clean" />
+                </list>
+              </option>
+            </ExternalSystemSettings>
+          </option>
+        </ExternalTaskExecutionInfo>
+      </list>
     </option>
     <option name="availableProjects">
       <map>
@@ -362,6 +379,26 @@
                 <option name="description" value="Assembles the Test build for the Krrish3Debug build" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
                 <option name="name" value="assembleKrrish3Test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles all builds for flavor MahabharatStarPlus" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="assembleMahabharatStarPlus" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the Debug build for flavor MahabharatStarPlus" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="assembleMahabharatStarPlusDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the Release build for flavor MahabharatStarPlus" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="assembleMahabharatStarPlusRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the Test build for the MahabharatStarPlusDebug build" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="assembleMahabharatStarPlusTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles all Release builds" />
@@ -640,6 +677,42 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="compileMahabharatStarPlusDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="compileMahabharatStarPlusDebugAidl" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="compileMahabharatStarPlusDebugRenderscript" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="compileMahabharatStarPlusRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="compileMahabharatStarPlusReleaseAidl" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="compileMahabharatStarPlusReleaseRenderscript" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="compileMahabharatStarPlusTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="compileMahabharatStarPlusTestAidl" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="compileMahabharatStarPlusTestRenderscript" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
                 <option name="name" value="compileSanjivKapoorKeKitchenKhiladiDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -713,6 +786,11 @@
                 <option name="description" value="Installs and runs the tests for Build 'Krrish3Debug' on connected devices." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
                 <option name="name" value="connectedInstrumentTestKrrish3Debug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Installs and runs the tests for Build 'MahabharatStarPlusDebug' on connected devices." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="connectedInstrumentTestMahabharatStarPlusDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Installs and runs the tests for Build 'SanjivKapoorKeKitchenKhiladiDebug' on connected devices." />
@@ -800,6 +878,18 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
                 <option name="name" value="dexKrrish3Test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="dexMahabharatStarPlusDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="dexMahabharatStarPlusRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="dexMahabharatStarPlusTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
@@ -959,6 +1049,30 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="generateMahabharatStarPlusDebugBuildConfig" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="generateMahabharatStarPlusDebugSources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="generateMahabharatStarPlusReleaseBuildConfig" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="generateMahabharatStarPlusReleaseSources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="generateMahabharatStarPlusTestBuildConfig" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="generateMahabharatStarPlusTestSources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
                 <option name="name" value="generateSanjivKapoorKeKitchenKhiladiDebugBuildConfig" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -1040,6 +1154,16 @@
                 <option name="description" value="Installs the Test build for the Krrish3Debug build" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
                 <option name="name" value="installKrrish3Test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Installs the Debug build for flavor MahabharatStarPlus" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="installMahabharatStarPlusDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Installs the Test build for the MahabharatStarPlusDebug build" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="installMahabharatStarPlusTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Installs the Debug build for flavor SanjivKapoorKeKitchenKhiladi" />
@@ -1127,6 +1251,18 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
                 <option name="name" value="lintKrrish3Test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="lintMahabharatStarPlusDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="lintMahabharatStarPlusRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="lintMahabharatStarPlusTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
@@ -1286,6 +1422,30 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="mergeMahabharatStarPlusDebugAssets" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="mergeMahabharatStarPlusDebugResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="mergeMahabharatStarPlusReleaseAssets" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="mergeMahabharatStarPlusReleaseResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="mergeMahabharatStarPlusTestAssets" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="mergeMahabharatStarPlusTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
                 <option name="name" value="mergeSanjivKapoorKeKitchenKhiladiDebugAssets" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -1382,6 +1542,18 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="packageMahabharatStarPlusDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="packageMahabharatStarPlusRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="packageMahabharatStarPlusTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
                 <option name="name" value="packageSanjivKapoorKeKitchenKhiladiDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -1467,6 +1639,18 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
                 <option name="name" value="preKrrish3TestBuild" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="preMahabharatStarPlusDebugBuild" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="preMahabharatStarPlusReleaseBuild" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="preMahabharatStarPlusTestBuild" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
@@ -1556,6 +1740,18 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
                 <option name="name" value="prepareKrrish3TestDependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="prepareMahabharatStarPlusDebugDependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="prepareMahabharatStarPlusReleaseDependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="prepareMahabharatStarPlusTestDependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
@@ -1787,6 +1983,42 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="processMahabharatStarPlusDebugJavaRes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="processMahabharatStarPlusDebugManifest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="processMahabharatStarPlusDebugResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="processMahabharatStarPlusReleaseJavaRes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="processMahabharatStarPlusReleaseManifest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="processMahabharatStarPlusReleaseResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="processMahabharatStarPlusTestJavaRes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="processMahabharatStarPlusTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="processMahabharatStarPlusTestTestManifest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
                 <option name="name" value="processSanjivKapoorKeKitchenKhiladiDebugJavaRes" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -1922,6 +2154,21 @@
                 <option name="name" value="uninstallKrrish3Test" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Uninstalls the Debug build for flavor MahabharatStarPlus" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="uninstallMahabharatStarPlusDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Uninstalls the Release build for flavor MahabharatStarPlus" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="uninstallMahabharatStarPlusRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Uninstalls the Test build for the MahabharatStarPlusDebug build" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+                <option name="name" value="uninstallMahabharatStarPlusTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Uninstalls the Debug build for flavor SanjivKapoorKeKitchenKhiladi" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
                 <option name="name" value="uninstallSanjivKapoorKeKitchenKhiladiDebug" />
@@ -1954,22 +2201,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/YoutubeExampleProject.iml" />
         <option value="$PROJECT_DIR$/YoutubeExample/src/main/sanjivKapoorKeKitchenKhiladi/values/strings.xml" />
-        <option value="$PROJECT_DIR$/YoutubeExample/src/main/res/layout/activity_youtube.xml" />
-        <option value="$PROJECT_DIR$/YoutubeExample/src/main/res/layout/activity_main.xml" />
-        <option value="$PROJECT_DIR$/YoutubeExample/src/main/java/com/khushnish/youtubeexample/YoutubeActivity.java" />
         <option value="$PROJECT_DIR$/YoutubeExample/src/main/biggBoss7/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/YoutubeExample/src/main/comedyNightsWithKapil/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/YoutubeExample/src/main/dhoom3Trailer/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/YoutubeExample/src/main/didSuperMoms/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/YoutubeExample/src/main/krrish3/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/YoutubeExample/src/main/sanjivKapoorKeKitchenKhiladi/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/YoutubeExample/src/main/java/com/khushnish/youtubeexample/MainActivity.java" />
         <option value="$PROJECT_DIR$/local.properties" />
         <option value="$PROJECT_DIR$/YoutubeExample/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/YoutubeExample/build.gradle" />
         <option value="$PROJECT_DIR$/YoutubeExample/src/main/didDanceKaTashan/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/YoutubeExample/src/main/java/com/khushnish/youtubeexample/MainActivity.java" />
+        <option value="$PROJECT_DIR$/YoutubeExample/src/main/mahabharatStarPlus/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/YoutubeExample/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/YoutubeExample/src/main/res/layout/activity_youtube.xml" />
+        <option value="$PROJECT_DIR$/YoutubeExample/src/main/java/com/khushnish/youtubeexample/YoutubeActivity.java" />
+        <option value="$PROJECT_DIR$/YoutubeExample/build.gradle" />
       </list>
     </option>
   </component>
@@ -2034,6 +2281,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -2089,9 +2337,70 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YoutubeExample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YoutubeExample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YoutubeExample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YoutubeExample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YoutubeExample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YoutubeExample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YoutubeExample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YoutubeExample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YoutubeExample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2100,12 +2409,12 @@
     <property name="OverrideImplement.combined" value="true" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="ExportedApkPath" value="$USER_HOME$/Desktop/Sanjeev Kapoor Ke Kitchen Khiladi/Sanjeev Kapoor Ke Kitchen Khiladi_30_Sep_2013.apk" />
+    <property name="ExportedApkPath" value="$USER_HOME$/Desktop/DID Dance Ka Tashan/DID_Dance_Ka_Tashan_02_Oct_2013.apk" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="vcs.Git" />
     <property name="ExportedModule" value="YoutubeExample-YoutubeExample" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/YoutubeExample/sanjeevkapoorkekitchenkhiladi.jks" />
+    <property name="last_opened_file_path" value="/Volumes/Nishant/Nishant/KhushNish/Android Apps/Mahabharat Star Plus/Screen Shots/7 inch" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="192.168.56.101:5555" />
     <property name="MemberChooser.copyJavadoc" value="false" />
@@ -2121,11 +2430,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/YoutubeExample/src/main/mahabharatStarPlus/res" />
       <recent name="$PROJECT_DIR$/YoutubeExample/src/main/didDanceKaTashan/res" />
       <recent name="$PROJECT_DIR$/YoutubeExample/src/main/didDanceKaTashan/res/values" />
       <recent name="$PROJECT_DIR$/YoutubeExample/src/main/sanjivKapoorKeKitchenKhiladi/res" />
       <recent name="$PROJECT_DIR$/YoutubeExample/src/main/sanjivKapoorKeKitchenKhiladi" />
-      <recent name="$PROJECT_DIR$/YoutubeExample/src/main/dhoom3Trailer/res" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/YoutubeExample/src/main/sanjivKapoorKeKitchenKhiladi/res" />
@@ -2160,6 +2469,24 @@
         <option name="taskNames">
           <list>
             <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <RunnerSettings RunnerId="ExternalSystemTaskRunner" />
+      <ConfigurationWrapper RunnerId="ExternalSystemTaskRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="YoutubeExample:YoutubeExample [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/YoutubeExample" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -2209,19 +2536,6 @@
       </ExternalSystemSettings>
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -2247,6 +2561,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2338,16 +2665,18 @@
       <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Android Application.YoutubeExample" />
       <item index="1" class="java.lang.String" itemvalue="Android Application.YoutubeExample-YoutubeExample" />
       <item index="2" class="java.lang.String" itemvalue="Gradle.YoutubeExampleProject [setupBuild]" />
       <item index="3" class="java.lang.String" itemvalue="Gradle.YoutubeExample:YoutubeExample [build]" />
+      <item index="4" class="java.lang.String" itemvalue="Gradle.YoutubeExample:YoutubeExample [clean]" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Gradle.YoutubeExample:YoutubeExample [build]" />
-        <item index="1" class="java.lang.String" itemvalue="Gradle.YoutubeExampleProject [setupBuild]" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Gradle.YoutubeExample:YoutubeExample [clean]" />
+        <item index="1" class="java.lang.String" itemvalue="Gradle.YoutubeExample:YoutubeExample [build]" />
+        <item index="2" class="java.lang.String" itemvalue="Gradle.YoutubeExampleProject [setupBuild]" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
@@ -2406,33 +2735,33 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="701" extended-state="0" />
+    <frame x="0" y="22" width="1280" height="701" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3282313" sideWeight="0.5777958" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32745728" sideWeight="0.65140843" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3282313" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3282313" sideWeight="0.42220423" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3149742" sideWeight="0.45786062" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2504052" sideWeight="0.19621342" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298122" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24797407" sideWeight="0.50086653" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24797407" sideWeight="0.4696707" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31452993" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4595525" sideWeight="0.6339286" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901135" sideWeight="0.6803419" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.383821" sideWeight="0.6339286" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32820097" sideWeight="0.6850258" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3282313" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.64818025" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24797407" sideWeight="0.54044753" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31669536" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24797407" sideWeight="0.616179" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3149742" sideWeight="0.5421394" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32745728" sideWeight="0.65140843" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32478634" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286385" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -2450,104 +2779,101 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/comedyNightsWithKapil/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="65" selection-start="118" selection-end="179" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225" />
+    <entry file="file:///Volumes/Nishant/Nishant/KhushNish/Android Apps/Mahabharat Star Plus/Screen Shots/phone/device-2013-10-05-003153.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/dhoom3Trailer/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="39" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225" />
+    <entry file="file:///Volumes/Nishant/Nishant/KhushNish/Android Apps/Mahabharat Star Plus/Screen Shots/10 inch/device-2013-10-05-003340.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/didSuperMoms/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="46" selection-start="150" selection-end="150" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225" />
+    <entry file="file:///Volumes/Nishant/Nishant/KhushNish/Android Apps/Mahabharat Star Plus/Screen Shots/10 inch/device-2013-10-05-003441.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/krrish3/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="40" selection-start="138" selection-end="138" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225" />
+    <entry file="file:///Volumes/Nishant/Nishant/KhushNish/Android Apps/Mahabharat Star Plus/Screen Shots/10 inch/device-2013-10-05-003508.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/sanjivKapoorKeKitchenKhiladi/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="65" selection-start="188" selection-end="188" vertical-scroll-proportion="0.10771993" vertical-offset="0" max-vertical-offset="557" />
+    <entry file="file:///Volumes/Nishant/Nishant/KhushNish/Android Apps/Mahabharat Star Plus/Screen Shots/10 inch/device-2013-10-05-003553.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="373" />
+    <entry file="file:///Volumes/Nishant/Nishant/KhushNish/Android Apps/Mahabharat Star Plus/Screen Shots/7 inch/device-2013-10-05-003814.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="373" />
+    <entry file="file:///Volumes/Nishant/Nishant/KhushNish/Android Apps/Mahabharat Star Plus/Screen Shots/7 inch/device-2013-10-05-003950.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/local.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="39" selection-start="467" selection-end="467" vertical-scroll-proportion="0.40214476" vertical-offset="0" max-vertical-offset="373" />
+    <entry file="file:///Volumes/Nishant/Nishant/KhushNish/Android Apps/Mahabharat Star Plus/Screen Shots/7 inch/device-2013-10-05-004037.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/AndroidManifest.xml">
+    <entry file="file:///Volumes/Nishant/Nishant/KhushNish/Android Apps/Mahabharat Star Plus/Screen Shots/7 inch/device-2013-10-05-004113.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/mahabharatStarPlus/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="26" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
+        <state line="8" column="0" selection-start="346" selection-end="346" vertical-scroll-proportion="0.42105263" vertical-offset="0" max-vertical-offset="285">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="26" selection-start="393" selection-end="393" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="525">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/res/layout/activity_youtube.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="813" selection-end="813" vertical-scroll-proportion="-10.555555" vertical-offset="0" max-vertical-offset="465">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/java/com/khushnish/youtubeexample/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="68" selection-start="2725" selection-end="2725" vertical-scroll-proportion="0.0" vertical-offset="146" max-vertical-offset="3420">
+        <state line="263" column="0" selection-start="10755" selection-end="10755" vertical-scroll-proportion="0.0" vertical-offset="1936" max-vertical-offset="3405">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/biggBoss7/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="66" selection-start="181" selection-end="220" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/res/layout/activity_youtube.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="44" selection-start="571" selection-end="571" vertical-scroll-proportion="0.0" vertical-offset="47" max-vertical-offset="465">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="33" selection-start="731" selection-end="731" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="510">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/java/com/khushnish/youtubeexample/YoutubeActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="5" selection-start="2066" selection-end="2066" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="1725">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/YoutubeExample/src/main/didDanceKaTashan/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="56" selection-start="354" selection-end="354" vertical-scroll-proportion="0.19125684" vertical-offset="0" max-vertical-offset="549">
-          <folding />
+        <state line="97" column="48" selection-start="3512" selection-end="3512" vertical-scroll-proportion="0.0" vertical-offset="1045" max-vertical-offset="1725">
+          <folding>
+            <element signature="e#1301#1341#0" expanded="true" />
+            <element signature="e#1712#1739#0" expanded="true" />
+            <element signature="e#3081#3109#0" expanded="true" />
+            <element signature="e#3138#3179#0" expanded="true" />
+            <element signature="e#3879#3906#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/YoutubeExample/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="9" selection-start="1601" selection-end="1601" vertical-scroll-proportion="0.25" vertical-offset="705" max-vertical-offset="2220">
+        <state line="102" column="11" selection-start="2750" selection-end="2797" vertical-scroll-proportion="0.89905363" vertical-offset="1245" max-vertical-offset="2370">
           <folding />
         </state>
       </provider>

@@ -230,7 +230,6 @@ public class MainActivity extends ActionBarActivity {
                 final YouTube.Search.List search = youtube.search().list("id,snippet");
                 search.setKey(getString(R.string.api_key));
                 search.setQ(getString(R.string.search_query));
-//                search.set
                 search.setType("video");
                 search.setOrder(params[0]);
                 search.setFields("nextPageToken,pageInfo(totalResults),items(id/kind,id/videoId," +
