@@ -7,20 +7,27 @@
     android:background="@android:color/white"
     tools:context="YoutubeActivity">
 
-    <com.google.ads.AdView
-        android:id="@+id/activity_youtube_adView"
+    <LinearLayout
+        android:id="@+id/activity_youtube_lin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        ads:adSize="SMART_BANNER"
-        ads:adUnitId="@string/ads_key"
-        ads:loadAdOnCreate="true"
-        android:visibility="visible"/>
+        android:layout_centerHorizontal="true">
+
+        <com.google.ads.AdView
+            android:id="@+id/activity_youtube_adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            ads:adSize="SMART_BANNER"
+            ads:adUnitId="@string/ads_key"
+            ads:loadAdOnCreate="true"
+            ads:testDevices="TEST_EMULATOR, TEST_DEVICE_ID" />
+    </LinearLayout>
 
     <com.google.android.youtube.player.YouTubePlayerView
         android:id="@+id/youtube_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_above="@id/activity_youtube_adView" />
+        android:layout_above="@id/activity_youtube_lin" />
 </RelativeLayout>

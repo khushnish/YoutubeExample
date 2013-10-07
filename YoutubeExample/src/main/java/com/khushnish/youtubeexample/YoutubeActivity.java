@@ -7,6 +7,7 @@ import android.content.res.Configuration;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.ViewGroup;
+import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 
 import com.google.ads.Ad;
@@ -27,12 +28,14 @@ public class YoutubeActivity extends YouTubeBaseActivity implements
     private YouTubePlayerView youTubeView;
     private boolean isInitialized = false;
     private InterstitialAd interstitial;
+    private AdView adView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_youtube);
 
+        adView = (AdView) findViewById(R.id.activity_youtube_adView);
         final AdRequest adRequest = new AdRequest();
 
         interstitial = new InterstitialAd(this, getString(R.string.ads_interstitial_key));
@@ -58,6 +61,14 @@ public class YoutubeActivity extends YouTubeBaseActivity implements
             isInitialized = true;
             youTubePlayer.cueVideo(videoId);
         }
+    }
+
+    @Override
+    protected void onDestroy() {
+        if (adView != null) {
+            adView.destroy();
+        }
+        super.onDestroy();
     }
 
     @Override
@@ -98,7 +109,7 @@ public class YoutubeActivity extends YouTubeBaseActivity implements
         super.onConfigurationChanged(newConfig);
 
         final AdView adView = (AdView) findViewById(R.id.activity_youtube_adView);
-        final RelativeLayout parent = (RelativeLayout) findViewById(R.id.activity_youtube_container);
+        final LinearLayout parent = (LinearLayout) findViewById(R.id.activity_youtube_lin);
         final ViewGroup.LayoutParams params = adView.getLayoutParams();
 
         parent.removeView(adView);
